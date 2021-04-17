@@ -1,9 +1,6 @@
-language: python
+language: java
 
-python:
+jdk:
 
-  - "2.7"
+  - oraclejdk8
 
-script: 
-
-  - python hello.py
