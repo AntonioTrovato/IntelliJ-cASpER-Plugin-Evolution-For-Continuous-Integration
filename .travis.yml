@@ -6,4 +6,4 @@ jdk:
 
 script:
 
-  - java -cp ./HELLOWORLD/out/production/HELLOWORLD;. helloworld.HelloWorld
+  - java HelloWorld
