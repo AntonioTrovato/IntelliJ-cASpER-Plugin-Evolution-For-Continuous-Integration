@@ -1,9 +1,9 @@
 language: java
-script:
-  - mvn clean install
+
 jdk:
 
   - openjdk8
 
 script:
-  - ./HELLOWORLD/src/helloworld/HelloWorld.java
+
+  - java .\HELLOWORLD\out\production\HELLOWORLD\helloworld\HelloWorld
