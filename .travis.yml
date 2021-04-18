@@ -2,16 +2,8 @@ language: java
 
 jdk:
 
-  - openjdk14
+  - openjdk8
 
 script:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - java HELLOWORLD.src\helloworld.HelloWorld
-=======
-  - java ./HELLOWORLD/out/production/HELLOWORLD/helloworld/HelloWorld
->>>>>>> parent of 72a47e2 (Update .travis.yml)
-=======
-  - java ./HELLOWORLD/out/production/HELLOWORLD/helloworld/HelloWorld
->>>>>>> parent of 72a47e2 (Update .travis.yml)
+  - java HELLOWORLD/out/production/HELLOWORLD/helloworld/HelloWorld
