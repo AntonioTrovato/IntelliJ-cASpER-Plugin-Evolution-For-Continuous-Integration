@@ -6,4 +6,4 @@ jdk:
 
 script:
 
-  - java HELLOWORLD.src.helloworld.HelloWorld
+  - java HELLOWORLD.src\helloworld.HelloWorld
