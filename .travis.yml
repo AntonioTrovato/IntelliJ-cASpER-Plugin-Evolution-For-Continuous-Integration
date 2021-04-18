@@ -6,5 +6,4 @@ jdk:
 
 script:
 
-  - javac HELLOWORLD/src/helloworld/HelloWorld.java
-  - java HELLOWORLD/src/helloworld/HelloWorld
+  - java -classpath HELLOWORLD/out/production/HELLOWORLD/ helloworld.HelloWorld
