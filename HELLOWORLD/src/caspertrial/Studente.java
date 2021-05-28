@@ -1,44 +1,27 @@
 package caspertrial;
 
 public class Studente {
-    public Studente(String matricola, String dipartimento) {
-        this.matricola = matricola;
-        this.dipartimento = dipartimento;
+    public Studente(String nome, String maricola, Professore p) {
+        this.nome = nome;
+        this.maricola = maricola;
     }
 
-    public String getMatricola() {
-        return matricola;
+    public String getNome() {
+        return nome;
     }
 
-    public void setMatricola(String matricola) {
-        this.matricola = matricola;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public String getDipartimento() {
-        return dipartimento;
+    public String getMaricola() {
+        return maricola;
     }
 
-    public void setDipartimento(String dipartimento) {
-        this.dipartimento = dipartimento;
+    public void setMaricola(String maricola) {
+        this.maricola = maricola;
     }
 
-    public String getMateria() {
-        return this.professore.getMateria();
-    }
-
-    public void setMateria(String materia) {
-        this.professore.setMateria(materia);
-    }
-
-    public String getAula() {
-        return this.professore.getAula();
-    }
-
-    public void setAula(String aula) {
-        this.professore.setAula(aula);
-    }
-
-    private String matricola;
-    private String dipartimento;
-    private Professore professore;
+    private String nome;
+    private String maricola;
 }
