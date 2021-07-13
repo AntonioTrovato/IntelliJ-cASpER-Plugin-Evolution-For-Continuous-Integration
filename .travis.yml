@@ -1,0 +1,9 @@
+language: java
+
+jdk:
+
+  - oraclejdk14
+
+script:
+
+  - java -classpath HELLOWORLD/out/production/HELLOWORLD/ helloworld.HelloWorld
