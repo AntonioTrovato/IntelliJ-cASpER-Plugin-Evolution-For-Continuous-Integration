@@ -1,12 +1,12 @@
-package org.computemetrics.parser;
+package it.unisa.casper.parser;
 
-import org.computemetrics.beans.ClassBean;
-import org.computemetrics.beans.InstanceVariableBean;
-import org.computemetrics.beans.MethodBean;
-import org.computemetrics.parser.visitor.InstanceVariableVisitor;
-import org.computemetrics.parser.visitor.MethodVisitor;
-import org.computemetrics.parser.visitor.OperandsVisitor;
-import org.computemetrics.parser.visitor.OperatorsVisitor;
+import it.unisa.casper.beans.ClassBean;
+import it.unisa.casper.beans.InstanceVariableBean;
+import it.unisa.casper.beans.MethodBean;
+import it.unisa.casper.parser.visitor.InstanceVariableVisitor;
+import it.unisa.casper.parser.visitor.MethodVisitor;
+import it.unisa.casper.parser.visitor.OperandsVisitor;
+import it.unisa.casper.parser.visitor.OperatorsVisitor;
 import org.eclipse.jdt.core.dom.FieldDeclaration;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 import org.eclipse.jdt.core.dom.TypeDeclaration;

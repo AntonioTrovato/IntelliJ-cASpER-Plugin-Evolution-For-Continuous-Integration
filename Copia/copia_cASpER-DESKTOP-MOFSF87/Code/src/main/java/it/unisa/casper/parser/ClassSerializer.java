@@ -1,8 +1,8 @@
-package org.computemetrics.parser;
+package it.unisa.casper.parser;
 
-import org.computemetrics.beans.ClassBean;
-import org.computemetrics.beans.InstanceVariableBean;
-import org.computemetrics.beans.MethodBean;
+import it.unisa.casper.beans.ClassBean;
+import it.unisa.casper.beans.InstanceVariableBean;
+import it.unisa.casper.beans.MethodBean;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

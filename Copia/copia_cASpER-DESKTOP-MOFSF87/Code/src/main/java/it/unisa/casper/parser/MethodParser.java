@@ -1,9 +1,9 @@
-package org.computemetrics.parser;
+package it.unisa.casper.parser;
 
-import org.computemetrics.beans.InstanceVariableBean;
-import org.computemetrics.beans.MethodBean;
-import org.computemetrics.parser.visitor.InvocationVisitor;
-import org.computemetrics.parser.visitor.NameVisitor;
+import it.unisa.casper.beans.InstanceVariableBean;
+import it.unisa.casper.beans.MethodBean;
+import it.unisa.casper.parser.visitor.InvocationVisitor;
+import it.unisa.casper.parser.visitor.NameVisitor;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
 
 import java.util.ArrayList;

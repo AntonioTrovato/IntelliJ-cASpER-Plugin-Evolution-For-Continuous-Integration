@@ -1,6 +1,6 @@
-package org.computemetrics.parser;
+package it.unisa.casper.parser;
 
-import org.computemetrics.beans.InstanceVariableBean;
+import it.unisa.casper.beans.InstanceVariableBean;
 import org.eclipse.jdt.core.dom.FieldDeclaration;
 
 import java.util.Iterator;

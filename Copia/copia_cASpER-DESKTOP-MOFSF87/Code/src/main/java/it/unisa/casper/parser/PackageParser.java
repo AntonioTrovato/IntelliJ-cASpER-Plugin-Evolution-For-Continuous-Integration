@@ -1,7 +1,7 @@
-package org.computemetrics.parser;
+package it.unisa.casper.parser;
 
-import org.computemetrics.beans.ClassBean;
-import org.computemetrics.beans.PackageBean;
+import it.unisa.casper.beans.ClassBean;
+import it.unisa.casper.beans.PackageBean;
 import org.eclipse.jdt.core.ICompilationUnit;
 import org.eclipse.jdt.core.IImportDeclaration;
 import org.eclipse.jdt.core.IPackageFragment;

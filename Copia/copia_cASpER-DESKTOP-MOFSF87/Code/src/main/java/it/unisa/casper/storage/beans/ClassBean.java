@@ -36,7 +36,7 @@ public class ClassBean implements ComparableBean, Comparable {
      *
      * @param builder builder che si occupa dell'effettivo istanziamento del bean
      */
-    protected ClassBean(Builder builder) {
+    public ClassBean(Builder builder) {
         fullQualifiedName = builder._fullQualifiedName;
         textContent = builder._textContent;
         instanceVariables = builder._instanceVariables;

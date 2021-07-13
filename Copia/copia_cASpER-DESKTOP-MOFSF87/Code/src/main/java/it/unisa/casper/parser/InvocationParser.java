@@ -1,6 +1,6 @@
-package org.computemetrics.parser;
+package it.unisa.casper.parser;
 
-import org.computemetrics.beans.MethodBean;
+import it.unisa.casper.beans.MethodBean;
 
 public class InvocationParser {
 
