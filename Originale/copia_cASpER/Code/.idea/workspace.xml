@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/commons-cli-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/opencsv-5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.core.runtime-3.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.equinox.common-3.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.jdt.core-3.26.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.jgit-5.12.0.202106070339-r.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/repodriller-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/Package1/Professore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/Package2/Studente.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -256,6 +253,7 @@
       <workItem from="1626184281197" duration="286000" />
       <workItem from="1626190611510" duration="56000" />
       <workItem from="1626352201826" duration="968000" />
+      <workItem from="1626455752508" duration="413000" />
     </task>
     <servers />
   </component>
