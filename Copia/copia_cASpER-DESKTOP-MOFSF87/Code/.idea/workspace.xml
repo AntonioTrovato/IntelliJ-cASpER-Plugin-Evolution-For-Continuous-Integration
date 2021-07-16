@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Originale/copia_cASpER/Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Originale/copia_cASpER/Code/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Originale/copia_cASpER/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Originale/copia_cASpER/Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/commons-cli-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/opencsv-5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.core.runtime-3.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.equinox.common-3.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.jdt.core-3.26.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/org.eclipse.jgit-5.12.0.202106070339-r.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../librerie/repodriller-2.0.1.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,15 +92,15 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Tirocinio/toolbox-master/ComputeMetrics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/repodriller-2.0.1.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -121,19 +111,6 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="RunManager" selected="Gradle.casper2">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Code [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -306,6 +283,7 @@
       <workItem from="1626273718503" duration="1641000" />
       <workItem from="1626275376492" duration="941000" />
       <workItem from="1626352164748" duration="1328000" />
+      <workItem from="1626453425878" duration="2272000" />
     </task>
     <servers />
   </component>
