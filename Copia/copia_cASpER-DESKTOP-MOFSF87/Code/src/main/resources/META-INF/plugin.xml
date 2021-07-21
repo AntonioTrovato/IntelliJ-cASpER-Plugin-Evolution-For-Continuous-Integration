@@ -18,15 +18,15 @@
 
     <vendor url="https://www.unisa.it/" email="seschool@unisa.it">SESA Lab.</vendor>
     <extensions defaultExtensionNs="com.intellij">
-        <checkinHandlerFactory implementation="it.unisa.casper.action.CommitFactory"/>
+        <checkinHandlerFactory implementation="it.unisa.casper.actions.CommitFactory"/>
     </extensions>
 
     <actions>
         <group id="org.jetbrains.tutorials.actions.GroupedActions" text="cASpER - Analyze Project" popup="true">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
-            <action id="it.unisa.casper.action.BeginAction" class="it.unisa.casper.action.BeginAction"
+            <action id="it.unisa.casper.actions.BeginAction" class="it.unisa.casper.actions.BeginAction"
                     text="Run plug-in"/>
-            <action id="it.unisa.casper.action.ConfigureAction" class="it.unisa.casper.action.ConfigureAction"
+            <action id="it.unisa.casper.actions.ConfigureAction" class="it.unisa.casper.actions.ConfigureAction"
                     text="Configure threshold"/>
         </group>
     </actions>

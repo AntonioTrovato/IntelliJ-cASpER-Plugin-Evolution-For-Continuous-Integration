@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/adapters/ICompilationUnitAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/adapters/IImportDeclarationAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/adapters/PackageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/ant.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/artifacts/casper_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/artifacts/casper_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/jcommon_1_0_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/jcommon_1_0_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/jfreechart_1_0_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/jfreechart_1_0_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/lucene_core_7_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/lucene_core_7_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/openapi_7_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/libraries/openapi_7_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/BeginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/BeginAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/ConfigureAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/SystemStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/SystemStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/beans/ClassBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/beans/ClassBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/ClassBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/ClassBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/BeginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/BeginAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/ConfigureAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/SystemStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/SystemStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/beans/ClassBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/beans/ClassBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/storage/beans/ClassBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/storage/beans/ClassBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/libs/casper-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/libs/casper-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/resources/main/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/Groovy.jar/search/Groovy.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/Groovy.jar/search/Groovy.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/adt-ui.jar/search/adt-ui.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/adt-ui.jar/search/adt-ui.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/android.jar/search/android.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/android.jar/search/android.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/antIntegration.jar/search/antIntegration.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/antIntegration.jar/search/antIntegration.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/ascetic-1.0-SNAPSHOT.jar/search/ascetic-1.0-SNAPSHOT.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/ascetic-1.0-SNAPSHOT.jar/search/ascetic-1.0-SNAPSHOT.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/byteCodeViewer.jar/search/byteCodeViewer.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/byteCodeViewer.jar/search/byteCodeViewer.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/casper-1.0-SNAPSHOT.jar/search/casper-1.0-SNAPSHOT.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/casper-1.0-SNAPSHOT.jar/search/casper-1.0-SNAPSHOT.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/copyright.jar/search/copyright.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/copyright.jar/search/copyright.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/coverage.jar/search/coverage.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/coverage.jar/search/coverage.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/devkit.jar/search/devkit.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/devkit.jar/search/devkit.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/eclipse.jar/search/eclipse.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/eclipse.jar/search/eclipse.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/editorconfig.jar/search/editorconfig.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/editorconfig.jar/search/editorconfig.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/git4idea.jar/search/git4idea.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/git4idea.jar/search/git4idea.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/github.jar/search/github.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/github.jar/search/github.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/gradle-common.jar/search/gradle-common.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/gradle-common.jar/search/gradle-common.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/gradle-java.jar/search/gradle-java.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/gradle-java.jar/search/gradle-java.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/hg4idea.jar/search/hg4idea.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/hg4idea.jar/search/hg4idea.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/idea-junit.jar/search/idea-junit.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/idea-junit.jar/search/idea-junit.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/idea.jar/search/idea.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/idea.jar/search/idea.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java-decompiler.jar/search/java-decompiler.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java-decompiler.jar/search/java-decompiler.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java-i18n.jar/search/java-i18n.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java-i18n.jar/search/java-i18n.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java-impl.jar/search/java-impl.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java-impl.jar/search/java-impl.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/javaFX.jar/search/javaFX.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/javaFX.jar/search/javaFX.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java_resources_en.jar/search/java_resources_en.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/java_resources_en.jar/search/java_resources_en.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/jvm-ide.jar/search/jvm-ide.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/jvm-ide.jar/search/jvm-ide.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/kotlin-plugin.jar/search/kotlin-plugin.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/kotlin-plugin.jar/search/kotlin-plugin.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/maven-ide.jar/search/maven-ide.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/maven-ide.jar/search/maven-ide.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/maven.jar/search/maven.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/maven.jar/search/maven.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/openapi.jar/search/openapi.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/openapi.jar/search/openapi.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/properties.jar/search/properties.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/properties.jar/search/properties.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/resources_en.jar/search/resources_en.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/resources_en.jar/search/resources_en.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/settings-repository.jar/search/settings-repository.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/settings-repository.jar/search/settings-repository.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/stream-debugger.jar/search/stream-debugger.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/stream-debugger.jar/search/stream-debugger.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/svn4idea.jar/search/svn4idea.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/svn4idea.jar/search/svn4idea.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/tasks-core.jar/search/tasks-core.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/tasks-core.jar/search/tasks-core.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/terminal.jar/search/terminal.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/terminal.jar/search/terminal.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/testng-plugin.jar/search/testng-plugin.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/testng-plugin.jar/search/testng-plugin.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/uiDesigner.jar/search/uiDesigner.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/uiDesigner.jar/search/uiDesigner.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/xpath.jar/search/xpath.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/xpath.jar/search/xpath.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/yaml.jar/search/yaml.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/searchableOptions/yaml.jar/search/yaml.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/tmp/jarSearchableOptions/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/tmp/jarSearchableOptions/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/BeginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/BeginAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/CommitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/CommitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/ConfigureAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/ConfigureAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/SystemStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/SystemStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/BlobCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/BlobCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/ClassLevelCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/ClassLevelCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/CodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/CodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/DivergentChangeCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/DivergentChangeCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/FeatureEnvyCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/FeatureEnvyCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/MethodLevelCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/MethodLevelCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/MisplacedClassCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/MisplacedClassCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/PackageLevelCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/PackageLevelCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/ParallelInheritanceCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/ParallelInheritanceCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/PromiscuousPackageCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/PromiscuousPackageCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/ShotgunSurgeryCodeSmell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell/ShotgunSurgeryCodeSmell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/BeanDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/BeanDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/ComponentMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/ComponentMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/HistoryBlobStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/HistoryBlobStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/comparator/BeanComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/comparator/BeanComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/comparator/ComparableBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/comparator/ComparableBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/divergent_change/HistoryDivergentChangeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/divergent_change/HistoryDivergentChangeStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/HistoryFeatureEnvyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/HistoryFeatureEnvyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/parallel_inheritance/HistoryParallelInheritanceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/parallel_inheritance/HistoryParallelInheritanceStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/shotgun_surgery/HistoryShotgunSurgeryStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/shotgun_surgery/HistoryShotgunSurgeryStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/similarityComputation/CosineSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/similarityComputation/CosineSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/smellynessMetricProcessing/SmellynessMetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/smellynessMetricProcessing/SmellynessMetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/ClassSmellDetectionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/ClassSmellDetectionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/CodeSmellDetectionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/CodeSmellDetectionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/MethodSmellDetectionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/MethodSmellDetectionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/PackageSmellDetectionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/PackageSmellDetectionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/AnalyzerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/AnalyzerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/HistoryAnalysisStartup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/HistoryAnalysisStartup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/PythonExeSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/PythonExeSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/RepositorySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/RepositorySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/beans/ClassBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/beans/ClassBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/BlobPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/BlobPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/BlobWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/BlobWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/CheckProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/CheckProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ConfigureThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ConfigureThreshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/DivergentChangePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/DivergentChangePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/DivergentChangeWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/DivergentChangeWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/FeatureEnvyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/FeatureEnvyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/FeatureEnvyWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/FeatureEnvyWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/MisplacedClassPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/MisplacedClassPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/MisplacedClassWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/MisplacedClassWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ParallelInheritancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ParallelInheritancePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ParallelInheritanceWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ParallelInheritanceWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackageWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackageWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ShotgunSurgeryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ShotgunSurgeryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ShothunSurgeryWizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/ShothunSurgeryWizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/StyleText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/StyleText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/radarMap/RadarMapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/radarMap/RadarMapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/BlobException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/BlobException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/FeatureEnvyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/FeatureEnvyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/MisplacedClassException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/MisplacedClassException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/PromiscuousPackageException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/PromiscuousPackageException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/RefactorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/exceptions/RefactorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/BlobRefatoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/BlobRefatoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/DivergentChangeRefactoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/DivergentChangeRefactoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/FeatureEnvyRefactoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/FeatureEnvyRefactoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/FieldMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/FieldMover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/MethodMover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/MethodMover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/MisplacedClassRefactoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/MisplacedClassRefactoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/MockMoveMembersOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/MockMoveMembersOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/ParallelInheritanceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/ParallelInheritanceStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/PromiscuousPackageRefactoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/PromiscuousPackageRefactoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/PsiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/PsiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/ShotgunSurgeryRefactoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/ShotgunSurgeryRefactoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/UpdateClassUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/manipulator/UpdateClassUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/ClassByClassMatrixConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/ClassByClassMatrixConstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/PromiscuousPackageQualityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/PromiscuousPackageQualityChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/BaseConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/BaseConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/ConfigLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/ConfigLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/IREngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/IREngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/Stemmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/Stemmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/VectorSpaceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/VectorSpaceModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/strategy/RefactoringManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/strategy/RefactoringManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/strategy/RefactoringStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/refactor/strategy/RefactoringStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/ClassBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/ClassBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/ClassBeanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/ClassBeanList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/ClassList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/ClassList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableBeanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableBeanList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/MethodBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/MethodBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/MethodBeanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/MethodBeanList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/MethodList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/MethodList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/PackageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/storage/beans/PackageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/structuralMetrics/CKMetrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/structuralMetrics/CKMetrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/topic/TopicExtracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/topic/TopicExtracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/JUnitTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/JUnitTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/BeanDetectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/BeanDetectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/CKMetricsStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/CKMetricsStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/CosineSimilarityStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/CosineSimilarityStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/SmellynessMetricStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/SmellynessMetricStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/refactor/SplitClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/refactor/SplitClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/refactor/SplitPackagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/test/it/unisa/casper/refactor/SplitPackagesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/out/production/HELLOWORLD/META-INF/HELLOWORLD.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/artifacts/casper_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/libraries/jcommon_1_0_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/libraries/jfreechart_1_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/libraries/lucene_core_7_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/libraries/openapi_7_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/BeginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/SystemStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/BlobCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/ClassLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/CodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/DivergentChangeCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/FeatureEnvyCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/MethodLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/MisplacedClassCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/PackageLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/ParallelInheritanceCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/PromiscuousPackageCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell/ShotgunSurgeryCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/BeanDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/ComponentMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/blob/HistoryBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/comparator/BeanComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/comparator/ComparableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/divergent_change/HistoryDivergentChangeStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/feature_envy/HistoryFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/parallel_inheritance/HistoryParallelInheritanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/shotgun_surgery/HistoryShotgunSurgeryStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/similarityComputation/CosineSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/smellynessMetricProcessing/SmellynessMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/strategy/ClassSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/strategy/CodeSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/strategy/MethodSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/code_smell_detection/strategy/PackageSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/history_analysis_utility/AnalyzerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/history_analysis_utility/HistoryAnalysisStartup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/history_analysis_utility/PythonExeSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/analysis/history_analysis_utility/RepositorySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobWizard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobWizard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobWizard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobWizard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/BlobWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/CheckProjectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ConfigureThreshold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/DivergentChangePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/DivergentChangePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/DivergentChangeWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/DivergentChangeWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/FeatureEnvyPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/FeatureEnvyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/FeatureEnvyWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/FeatureEnvyWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/MisplacedClassPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/MisplacedClassPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/MisplacedClassWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/MisplacedClassWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ParallelInheritancePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ParallelInheritancePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ParallelInheritanceWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ParallelInheritanceWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackagePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackagePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackageWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackageWizard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackageWizard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackageWizard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackageWizard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/PromiscuousPackageWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ShotgunSurgeryPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ShotgunSurgeryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ShothunSurgeryWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/ShothunSurgeryWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/radarMap/RadarMapUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/ParsingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/exceptions/BlobException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/exceptions/FeatureEnvyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/exceptions/MisplacedClassException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/exceptions/PromiscuousPackageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/exceptions/RefactorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/BlobRefatoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/DivergentChangeRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/FeatureEnvyRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/FieldMover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/MethodMover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/MisplacedClassRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/MockMoveMembersOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/ParallelInheritanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/PromiscuousPackageRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/PsiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/ShotgunSurgeryRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/manipulator/UpdateClassUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/ClassByClassMatrixConstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/PromiscuousPackageQualityChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/irEngine/BaseConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/irEngine/ConfigLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/irEngine/IREngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/irEngine/Stemmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/splitting_algorithm/irEngine/VectorSpaceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/strategy/RefactoringManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/refactor/strategy/RefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/ClassBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/ClassBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/ClassBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/ClassList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/InstanceVariableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/InstanceVariableBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/InstanceVariableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/MethodBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/MethodBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/MethodBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/MethodBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/MethodList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/PackageBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/storage/beans/PackageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/structuralMetrics/CKMetrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/it/unisa/casper/topic/TopicExtracter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main-instrumented/src/main/java/it/unisa/casper/gui/StyleText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/actions/BeginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/actions/SystemStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/BlobCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/ClassLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/CodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/DivergentChangeCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/FeatureEnvyCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/MethodLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/MisplacedClassCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/PackageLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/ParallelInheritanceCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/PromiscuousPackageCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell/ShotgunSurgeryCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/BeanDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/ComponentMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/blob/HistoryBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/comparator/BeanComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/comparator/ComparableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/divergent_change/HistoryDivergentChangeStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/feature_envy/HistoryFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/parallel_inheritance/HistoryParallelInheritanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/shotgun_surgery/HistoryShotgunSurgeryStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/similarityComputation/CosineSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/smellynessMetricProcessing/SmellynessMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/strategy/ClassSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/strategy/CodeSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/strategy/MethodSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/code_smell_detection/strategy/PackageSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/history_analysis_utility/AnalyzerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/history_analysis_utility/HistoryAnalysisStartup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/history_analysis_utility/PythonExeSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/analysis/history_analysis_utility/RepositorySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobWizard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobWizard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobWizard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobWizard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/BlobWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/CheckProjectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ConfigureThreshold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/DivergentChangePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/DivergentChangePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/DivergentChangeWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/DivergentChangeWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/FeatureEnvyPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/FeatureEnvyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/FeatureEnvyWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/FeatureEnvyWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/MisplacedClassPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/MisplacedClassPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/MisplacedClassWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/MisplacedClassWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ParallelInheritancePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ParallelInheritancePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ParallelInheritanceWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ParallelInheritanceWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackagePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackagePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackageWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackageWizard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackageWizard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackageWizard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackageWizard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/PromiscuousPackageWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ShotgunSurgeryPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ShotgunSurgeryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ShothunSurgeryWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/ShothunSurgeryWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/radarMap/RadarMapUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/parser/ParsingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/exceptions/BlobException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/exceptions/FeatureEnvyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/exceptions/MisplacedClassException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/exceptions/PromiscuousPackageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/exceptions/RefactorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/BlobRefatoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/DivergentChangeRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/FeatureEnvyRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/FieldMover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/MethodMover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/MisplacedClassRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/MockMoveMembersOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/ParallelInheritanceStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/PromiscuousPackageRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/PsiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/ShotgunSurgeryRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/manipulator/UpdateClassUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/ClassByClassMatrixConstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/PromiscuousPackageQualityChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/irEngine/BaseConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/irEngine/ConfigLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/irEngine/IREngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/irEngine/Stemmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/splitting_algorithm/irEngine/VectorSpaceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/strategy/RefactoringManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/refactor/strategy/RefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/ClassBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/ClassBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/ClassBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/ClassList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/InstanceVariableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/InstanceVariableBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/InstanceVariableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/MethodBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/MethodBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/MethodBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/MethodBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/MethodList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/PackageBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/storage/beans/PackageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/structuralMetrics/CKMetrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/it/unisa/casper/topic/TopicExtracter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/classes/java/main/src/main/java/it/unisa/casper/gui/StyleText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/distributions/casper-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/libs/ascetic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/libs/casper-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/libs/casper-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/libsSearchableOptions/lib/searchableOptions-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/resources/main/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/Groovy.jar/search/Groovy.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/adt-ui.jar/search/adt-ui.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/android.jar/search/android.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/antIntegration.jar/search/antIntegration.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/ascetic-1.0-SNAPSHOT.jar/search/ascetic-1.0-SNAPSHOT.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/byteCodeViewer.jar/search/byteCodeViewer.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/casper-1.0-SNAPSHOT.jar/search/casper-1.0-SNAPSHOT.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/copyright.jar/search/copyright.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/coverage.jar/search/coverage.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/devkit.jar/search/devkit.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/eclipse.jar/search/eclipse.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/editorconfig.jar/search/editorconfig.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/git4idea.jar/search/git4idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/github.jar/search/github.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/gradle-common.jar/search/gradle-common.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/gradle-java.jar/search/gradle-java.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/hg4idea.jar/search/hg4idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/idea-junit.jar/search/idea-junit.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/idea.jar/search/idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/java-decompiler.jar/search/java-decompiler.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/java-i18n.jar/search/java-i18n.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/java-impl.jar/search/java-impl.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/javaFX.jar/search/javaFX.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/java_resources_en.jar/search/java_resources_en.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/jvm-ide.jar/search/jvm-ide.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/kotlin-plugin.jar/search/kotlin-plugin.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/maven-ide.jar/search/maven-ide.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/maven.jar/search/maven.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/openapi.jar/search/openapi.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/properties.jar/search/properties.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/resources_en.jar/search/resources_en.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/settings-repository.jar/search/settings-repository.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/stream-debugger.jar/search/stream-debugger.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/svn4idea.jar/search/svn4idea.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/tasks-core.jar/search/tasks-core.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/terminal.jar/search/terminal.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/testng-plugin.jar/search/testng-plugin.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/uiDesigner.jar/search/uiDesigner.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/xpath.jar/search/xpath.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/searchableOptions/yaml.jar/search/yaml.jar.searchableOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/build/tmp/jarSearchableOptions/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/actions/BeginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/actions/CommitFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/actions/SystemStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/BlobCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/ClassLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/CodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/FeatureEnvyCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/MethodLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/MisplacedClassCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/PackageLevelCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell/PromiscuousPackageCodeSmell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/BeanDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/ComponentMutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/comparator/BeanComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/comparator/ComparableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/similarityComputation/CosineSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/smellynessMetricProcessing/SmellynessMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/strategy/ClassSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/strategy/CodeSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/strategy/MethodSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/analysis/code_smell_detection/strategy/PackageSmellDetectionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobWizard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobWizard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobWizard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobWizard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/BlobWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/CheckProjectPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/ConfigureThreshold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/FeatureEnvyPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/FeatureEnvyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/FeatureEnvyWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/FeatureEnvyWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/MisplacedClassPage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/MisplacedClassPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/MisplacedClassWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/MisplacedClassWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackagePage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackagePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackageWizard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackageWizard$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackageWizard$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackageWizard$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackageWizard$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/PromiscuousPackageWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/radarMap/RadarMapUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/parser/ParsingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/parser/PsiParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/exceptions/BlobException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/exceptions/FeatureEnvyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/exceptions/MisplacedClassException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/exceptions/PromiscuousPackageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/exceptions/RefactorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/manipulator/BlobRefatoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/manipulator/FeatureEnvyRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/manipulator/MethodMover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/manipulator/MisplacedClassRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/manipulator/PromiscuousPackageRefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/manipulator/PsiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/ClassByClassMatrixConstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/PromiscuousPackageQualityChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/irEngine/BaseConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/irEngine/ConfigLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/irEngine/IREngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/irEngine/Stemmer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/splitting_algorithm/irEngine/VectorSpaceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/strategy/RefactoringManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/refactor/strategy/RefactoringStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/ClassBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/ClassBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/ClassBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/ClassList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/InstanceVariableBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/InstanceVariableBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/InstanceVariableList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/MethodBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/MethodBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/MethodBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/MethodBeanList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/MethodList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/PackageBean$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/storage/beans/PackageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/structuralMetrics/CKMetrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/it/unisa/casper/topic/TopicExtracter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/production/Code/src/main/java/it/unisa/casper/gui/StyleText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/actions/BeginAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/actions/CommitFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/actions/ConfigureAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/actions/SystemStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/BlobCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/ClassLevelCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/CodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/DivergentChangeCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/FeatureEnvyCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/MethodLevelCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/MisplacedClassCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/PackageLevelCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/ParallelInheritanceCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/PromiscuousPackageCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell/ShotgunSurgeryCodeSmell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/BeanDetection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/ComponentMutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/HistoryBlobStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/comparator/BeanComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/comparator/ComparableBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/divergent_change/HistoryDivergentChangeStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/HistoryFeatureEnvyStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/parallel_inheritance/HistoryParallelInheritanceStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/shotgun_surgery/HistoryShotgunSurgeryStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/similarityComputation/CosineSimilarity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/smellynessMetricProcessing/SmellynessMetric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/ClassSmellDetectionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/CodeSmellDetectionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/MethodSmellDetectionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/code_smell_detection/strategy/PackageSmellDetectionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/AnalyzerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/HistoryAnalysisStartup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/PythonExeSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/analysis/history_analysis_utility/RepositorySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/BlobPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/BlobWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/CheckProjectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/ConfigureThreshold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/DivergentChangePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/DivergentChangeWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/FeatureEnvyPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/FeatureEnvyWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/MisplacedClassPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/MisplacedClassWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/ParallelInheritancePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/ParallelInheritanceWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackagePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackageWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/ShotgunSurgeryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/ShothunSurgeryWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/StyleText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/radarMap/RadarMapUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/gui/radarMap/RadarMapUtilsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/parser/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/parser/ParsingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/exceptions/BlobException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/exceptions/FeatureEnvyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/exceptions/MisplacedClassException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/exceptions/PromiscuousPackageException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/exceptions/RefactorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/BlobRefatoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/DivergentChangeRefactoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/FeatureEnvyRefactoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/FieldMover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/MethodMover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/MisplacedClassRefactoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/MockMoveMembersOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/ParallelInheritanceStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/PromiscuousPackageRefactoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/PsiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/ShotgunSurgeryRefactoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/manipulator/UpdateClassUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/ClassByClassMatrixConstruction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/MethodByMethodMatrixConstruction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/PromiscuousPackageQualityChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitClasses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/BaseConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/ConfigLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/IREngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/Stemmer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/splitting_algorithm/irEngine/VectorSpaceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/strategy/RefactoringManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/refactor/strategy/RefactoringStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/ClassBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/ClassBeanList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/ClassList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableBeanList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/InstanceVariableList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/MethodBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/MethodBeanList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/MethodList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/storage/beans/PackageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/structuralMetrics/CKMetrics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/java/it/unisa/casper/topic/TopicExtracter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/main/resources/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/JUnitTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/BeanDetectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/CKMetricsStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/CosineSimilarityStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/Helper/SmellynessMetricStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/refactor/SplitClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/src/test/it/unisa/casper/refactor/SplitPackagesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/JUnitTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/BeanDetectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/Helper/CKMetricsStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/Helper/CosineSimilarityStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/Helper/SmellynessMetricStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/blob/StructuralBlobStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/blob/TextualBlobStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/feature_envy/StructuralFeatureEnvyStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/feature_envy/TextualFeatureEnvyStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/misplaced_class/StructuralMisplacedClassStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/misplaced_class/TextualMisplacedClassStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/StructuralPromiscuousPackageStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/analysis/code_smell_detection/promiscuous_package/TextualPromiscuousPackageStrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/refactor/SplitClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/Code/test/Code/it/unisa/casper/refactor/SplitPackagesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../copia_cASpER/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../.." userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Code\exportToHTML" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.out</find>
+      <find>log.info(</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="DivergentChange" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1ZqTPfVvPn7H6t0Yv63wyhFv7R3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="PsiViewer.ProjectComponent">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="false" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="RunManager" selected="Gradle.casper2">
+    <configuration name="casper" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="casper2" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JUnitTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unisa.casper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it.unisa.casper" />
+      <option name="MAIN_CLASS_NAME" value="it.unisa.casper.JUnitTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.casper2" />
+      <item itemvalue="Gradle.casper" />
+      <item itemvalue="JUnit.JUnitTestSuite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JUnitTestSuite" />
+        <item itemvalue="JUnit.JUnitTestSuite" />
+        <item itemvalue="JUnit.JUnitTestSuite" />
+        <item itemvalue="JUnit.JUnitTestSuite" />
+        <item itemvalue="JUnit.JUnitTestSuite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="" />
+      <created>1577551490110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577551490110</updated>
+      <workItem from="1577551502966" duration="1823000" />
+      <workItem from="1577645449351" duration="3148000" />
+      <workItem from="1577659065499" duration="9000" />
+      <workItem from="1582712413868" duration="25000" />
+      <workItem from="1583231746986" duration="1072000" />
+      <workItem from="1585565603298" duration="1425000" />
+      <workItem from="1585567078918" duration="263000" />
+      <workItem from="1585658714490" duration="4036000" />
+      <workItem from="1585665444356" duration="50000" />
+      <workItem from="1585829047314" duration="2928000" />
+      <workItem from="1585916340853" duration="3724000" />
+      <workItem from="1586253253049" duration="3686000" />
+      <workItem from="1586598460917" duration="245000" />
+      <workItem from="1586599030468" duration="3855000" />
+      <workItem from="1586676015214" duration="3240000" />
+      <workItem from="1586693174095" duration="93000" />
+      <workItem from="1586693328721" duration="9000" />
+      <workItem from="1586695945703" duration="332000" />
+      <workItem from="1586776720351" duration="3175000" />
+      <workItem from="1586788767511" duration="1684000" />
+      <workItem from="1586866205660" duration="3071000" />
+      <workItem from="1587035581842" duration="3453000" />
+      <workItem from="1587209164636" duration="2750000" />
+      <workItem from="1587295664978" duration="6360000" />
+      <workItem from="1587302732858" duration="608000" />
+      <workItem from="1587377064841" duration="3611000" />
+      <workItem from="1587463278023" duration="3126000" />
+      <workItem from="1587466807562" duration="4389000" />
+      <workItem from="1587477296560" duration="1455000" />
+      <workItem from="1588341813060" duration="1014000" />
+      <workItem from="1588507137646" duration="6741000" />
+      <workItem from="1588514063696" duration="64000" />
+      <workItem from="1588580229699" duration="3149000" />
+      <workItem from="1588767806999" duration="3888000" />
+      <workItem from="1588835052208" duration="6450000" />
+      <workItem from="1588946399074" duration="1084000" />
+      <workItem from="1588951253568" duration="454000" />
+      <workItem from="1589010885028" duration="4241000" />
+      <workItem from="1589117206375" duration="7361000" />
+      <workItem from="1589133379845" duration="504000" />
+      <workItem from="1589176089065" duration="3332000" />
+      <workItem from="1589185963164" duration="317000" />
+      <workItem from="1589187480258" duration="4202000" />
+      <workItem from="1589191767824" duration="956000" />
+      <workItem from="1589292304758" duration="3580000" />
+      <workItem from="1589357679518" duration="2479000" />
+      <workItem from="1589872137910" duration="2484000" />
+      <workItem from="1589880982524" duration="3393000" />
+      <workItem from="1589884449887" duration="1302000" />
+      <workItem from="1589886896521" duration="2712000" />
+      <workItem from="1589894457135" duration="5891000" />
+      <workItem from="1589900529744" duration="1529000" />
+      <workItem from="1589979917011" duration="3964000" />
+      <workItem from="1589984136872" duration="5420000" />
+      <workItem from="1590217605740" duration="2499000" />
+      <workItem from="1590220209757" duration="2553000" />
+      <workItem from="1590593295858" duration="1273000" />
+      <workItem from="1590645679932" duration="648000" />
+      <workItem from="1590652465189" duration="685000" />
+      <workItem from="1590766309263" duration="59000" />
+      <workItem from="1626868688256" duration="34000" />
+      <workItem from="1626868748719" duration="1757000" />
+      <workItem from="1626870815028" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JUnitTestSuite - 2019.12.28 at 18h 14m 20s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTestSuite - 2019.12.28 at 18h 15m 03s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTestSuite - 2019.12.29 at 21h 37m 20s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTestSuite - 2019.12.29 at 22h 25m 40s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTestSuite - 2019.12.29 at 23h 18m 22s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTestSuite - 2019.12.29 at 23h 19m 16s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTestSuite - 2020.03.03 at 11h 53m 13s.xml">
+      <configuration name="JUnitTestSuite" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/casper$cASpER.ic" NAME="cASpER Coverage Results" MODIFIED="1574294040175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/casper$JUnitTestSuite.ic" NAME="JUnitTestSuite Coverage Results" MODIFIED="1575921719526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>it.unisa.casper.*</FILTER>
+    </SUITE>
+  </component>
+</project>
