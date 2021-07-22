@@ -17,7 +17,6 @@ public class CommitFactory extends CheckinHandlerFactory {
         final CheckinHandler checkinHandler = new CheckinHandler() {
             @Override
             public ReturnResult beforeCheckin() {
-                System.out.println("CommitFactory");
                 SystemStart start = new SystemStart();
                 start.form(panel.getProject());
 

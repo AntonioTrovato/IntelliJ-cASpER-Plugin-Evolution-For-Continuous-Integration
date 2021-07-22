@@ -103,7 +103,7 @@ public class SystemStart {
 
     public void form(Project currentProject) {
         System.out.println("SystemStart");
-        final List<it.unisa.casper.beans.PackageBean>[] packageList = new List[]{new ArrayList<>()};
+        final List<PackageBean>[] packageList = new List[]{new ArrayList<>()};
 
         PsiParser parser = new PsiParser(currentProject);
         errorHappened = false;
@@ -124,6 +124,15 @@ public class SystemStart {
             });
 
         }, "cASpER - Code Smell Detection", false, currentProject);
+
+        if (!errorHappened) {
+
+            CheckProjectPage frame = new CheckProjectPage(currentProject, packageList[0], minC, sogliaStructural, algoritmo);
+            frame.show();
+
+        } else {
+            Messages.showMessageDialog(currentProject, "Sorry, an error has occurred. Please try again or contact support", "OH ! No! ", Messages.getErrorIcon());
+        }
 
     }
 }

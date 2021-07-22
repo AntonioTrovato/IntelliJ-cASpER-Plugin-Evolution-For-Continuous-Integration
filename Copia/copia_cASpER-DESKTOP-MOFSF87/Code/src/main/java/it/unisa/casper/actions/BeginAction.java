@@ -8,7 +8,7 @@ public class BeginAction extends AnAction {
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent anActionEvent) {
-        System.out.println("BeginAction");
+
         SystemStart start = new SystemStart();
         start.form(anActionEvent.getProject());
 

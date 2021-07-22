@@ -178,7 +178,7 @@ public class PsiParser implements Parser {
         } catch (NullPointerException e) {
             e.printStackTrace();
         }
-        return MethodParser.parse((MethodDeclaration)psiMethod.getNode(),list);
+        return MethodParser.parse((MethodDeclaration)psiMethod,list);
     }
 
     /**
@@ -191,7 +191,7 @@ public class PsiParser implements Parser {
      * @return the InstanceVariableBean corresponding to the given PsiField
      */
     public InstanceVariableBean parse(PsiField psiField) {
-        return InstanceVariableParser.parse((FieldDeclaration)psiField.getNode());
+        return InstanceVariableParser.parse((FieldDeclaration)psiField);
     }
 
     /**

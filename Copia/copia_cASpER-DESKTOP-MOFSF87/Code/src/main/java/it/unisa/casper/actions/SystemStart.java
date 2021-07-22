@@ -102,7 +102,7 @@ public class SystemStart {
     }
 
     public void form(Project currentProject) {
-        System.out.println("SystemStart");
+
         final List<it.unisa.casper.beans.PackageBean>[] packageList = new List[]{new ArrayList<>()};
 
         PsiParser parser = new PsiParser(currentProject);

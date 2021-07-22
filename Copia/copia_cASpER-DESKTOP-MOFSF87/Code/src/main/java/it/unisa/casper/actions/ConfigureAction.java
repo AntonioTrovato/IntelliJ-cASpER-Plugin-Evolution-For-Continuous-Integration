@@ -9,7 +9,7 @@ public class ConfigureAction extends AnAction {
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent anActionEvent) {
-        System.out.println("ConfigureAction");
+
         ConfigureThreshold config = new ConfigureThreshold();
         config.show();
 

@@ -1,0 +1,9 @@
+java -classpath C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DESKTOP-MOFSF87\Code\out\production\classes\;C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DESKTOP-MOFSF87\Code\build\idea-sandbox\plugins\casper\lib\commons-cli-1.4.jar it.unisa.casper.cli.CommandLineCasper -op 5
+
+il classpath contiene due path:
+1)il path del .class di COmmandLineCasper
+2)il path del .jar di commons-cli-1.4.jar
+
+java -classpath C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DESKTOP-MOFSF87\Code\out\production\classes it.unisa.casper.prova.HelloWorld
+
+Questo è ciò che deve lanciare Travis
