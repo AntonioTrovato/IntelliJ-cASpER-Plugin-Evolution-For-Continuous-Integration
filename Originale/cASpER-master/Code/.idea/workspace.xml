@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/cli/CommandLineCasper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/prova/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/BeginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/BeginAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/CommitFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/ConfigureAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/SystemStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main-instrumented/it/unisa/casper/actions/SystemStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/BeginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/BeginAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/CommitFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/ConfigureAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/ConfigureAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/SystemStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/classes/java/main/it/unisa/casper/actions/SystemStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/libs/casper-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/build/libs/casper-1.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/BeginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/BeginAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/CommitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/CommitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/ConfigureAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/ConfigureAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/SystemStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/actions/SystemStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Professore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Professore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia_cASpER-DESKTOP-MOFSF87/Code/lib/org.osgi.core-4.2.0.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Tirocinio/cASpER-master/Code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -257,6 +236,7 @@
       <workItem from="1590766309263" duration="59000" />
       <workItem from="1626875842488" duration="4693000" />
       <workItem from="1626945466042" duration="675000" />
+      <workItem from="1626964135468" duration="1430000" />
     </task>
     <servers />
   </component>
