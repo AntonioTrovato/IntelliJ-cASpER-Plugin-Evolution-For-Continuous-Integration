@@ -1,6 +1,8 @@
 package it.unisa.casper.adapters;
 
 import com.intellij.psi.PsiClass;
+import com.intellij.psi.PsiFile;
+import com.intellij.psi.PsiJavaFile;
 import com.intellij.psi.PsiPackage;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.IProgressMonitor;
@@ -60,9 +62,18 @@ public class PackageAdapter implements IPackageFragment {
 
     @Override
     public ICompilationUnit[] getCompilationUnits() throws JavaModelException {
+        //ICompilationUnit -> source code di un .java
+        //creo un array di ICompilationUnitAdapter
         ICompilationUnitAdapter[] iCompilationUnitAdapters = new ICompilationUnitAdapter[psiPackage.getClasses().length];
-        for(int i = 0; i < psiPackage.getClasses().length; i++) {
-            iCompilationUnitAdapters[i] = new ICompilationUnitAdapter(psiPackage.getClasses()[i]);
+        //contatore
+        int i = 0;
+        //per ogni classe (sicuramente .java) nel package
+        for(PsiClass psiClass : psiPackage.getClasses()) {
+            //psiFile contiene il riferimento al file della classe
+            PsiFile psiFile = psiClass.getContainingFile();
+            //aggiungiamo la classe ed il file all'array ed aument. i
+            iCompilationUnitAdapters[i] = new ICompilationUnitAdapter(psiClass,(PsiJavaFile) psiFile);
+            i++;
         }
         return iCompilationUnitAdapters;
     }

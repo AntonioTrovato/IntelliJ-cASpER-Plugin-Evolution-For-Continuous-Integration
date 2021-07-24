@@ -22,8 +22,6 @@ public class CodeParser {
 
     /**
      * This method allows to create a parser for the AST;
-     *
-     * @param a String representation of a Class;
      * @return a CompilationUnit to work on;
      */
     public CompilationUnit createParser() {

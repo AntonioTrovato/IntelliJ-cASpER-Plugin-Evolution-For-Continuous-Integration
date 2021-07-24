@@ -1,8 +1,6 @@
 package it.unisa.casper.adapters;
 
-import com.intellij.psi.PsiClass;
-import com.intellij.psi.PsiImportStatement;
-import com.intellij.psi.PsiJavaFile;
+import com.intellij.psi.*;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.jdt.core.*;
@@ -12,8 +10,9 @@ import java.util.Map;
 
 public class ICompilationUnitAdapter implements ICompilationUnit {
 
-    public ICompilationUnitAdapter(PsiClass psiClass) {
+    public ICompilationUnitAdapter(PsiClass psiClass,PsiJavaFile psiJavaFile) {
         this.psiClass = psiClass;
+        this.psiJavaFile = psiJavaFile;
     }
 
     @Override
@@ -113,10 +112,16 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
 
     @Override
     public IImportDeclaration[] getImports() throws JavaModelException {
-        PsiJavaFile psiJavaFile = (PsiJavaFile) psiClass.getContainingFile();
-        IImportDeclarationAdapter[] importDeclarationAdapters = new IImportDeclarationAdapter[psiJavaFile.getImportList().getImportStatements().length];
-        for(int i = 0; i<importDeclarationAdapters.length; i++) {
-            importDeclarationAdapters[i] = new IImportDeclarationAdapter(psiJavaFile.getImportList().getImportStatements()[i]);
+        //IImportDeclaration -> rappresenta una import (import java.* è java.*)
+        IImportDeclarationAdapter[] importDeclarationAdapters = new IImportDeclarationAdapter[psiJavaFile.getImportList().getAllImportStatements().length];
+        //prendo la lista di tutte e import
+        PsiImportList psiImportList = psiJavaFile.getImportList();
+        int i = 0;
+        //per ogni import nella lista
+        for(PsiImportStatement psiImportStatement : psiImportList.getImportStatements()) {
+            //aggiungo l'import nell'array adapter
+            importDeclarationAdapters[i] = new IImportDeclarationAdapter(psiImportStatement);
+            i++;
         }
         return importDeclarationAdapters;
     }
@@ -308,7 +313,7 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
 
     @Override
     public String getSource() throws JavaModelException {
-        return psiClass.getContext().getText();
+        return psiClass.getSourceElement().getText();
     }
 
     @Override
@@ -487,4 +492,5 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
     }
 
     private PsiClass psiClass;
+    private PsiJavaFile psiJavaFile;
 }

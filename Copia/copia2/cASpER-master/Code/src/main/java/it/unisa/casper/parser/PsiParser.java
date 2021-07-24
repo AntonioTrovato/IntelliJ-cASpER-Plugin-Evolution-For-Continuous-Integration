@@ -4,6 +4,8 @@ import com.intellij.analysis.AnalysisScope;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.*;
 import com.intellij.psi.util.PsiTreeUtil;
+import it.unisa.casper.adapters.ClassBeanListAdapter;
+import it.unisa.casper.adapters.MethodBeanListAdapter;
 import it.unisa.casper.adapters.PackageAdapter;
 import it.unisa.casper.analysis.code_smell.*;
 import it.unisa.casper.analysis.code_smell_detection.blob.StructuralBlobStrategy;
@@ -51,20 +53,31 @@ public class PsiParser implements Parser {
                 newProjectPackages.add(parsedPackageBean);
             }
 
-            ArrayList<it.unisa.casper.storage.beans.ClassBean> oldClassBeans = new ArrayList<it.unisa.casper.storage.beans.ClassBean>();
-            ArrayList<it.unisa.casper.storage.beans.MethodBean> oldMethodBean = new ArrayList<it.unisa.casper.storage.beans.MethodBean>();
+            System.out.println("w");
+
+            //ArrayList<it.unisa.casper.storage.beans.ClassBean> oldClassBeans = new ArrayList<it.unisa.casper.storage.beans.ClassBean>();
+            //ArrayList<it.unisa.casper.storage.beans.MethodBean> oldMethodBean = new ArrayList<it.unisa.casper.storage.beans.MethodBean>();
 
             for(PackageBean packageBean : newProjectPackages) {
-                it.unisa.casper.storage.beans.PackageBean packageBean1 = new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent()).build();
-                projectPackages.add(packageBean1);
+                it.unisa.casper.storage.beans.PackageBean.Builder packageBeanBuilder = new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent());
+                ArrayList<it.unisa.casper.storage.beans.ClassBean> oldClassBeans = new ArrayList<it.unisa.casper.storage.beans.ClassBean>();
                 for(ClassBean classBean : packageBean.getClasses()) {
-                    it.unisa.casper.storage.beans.ClassBean classBean1 = new it.unisa.casper.storage.beans.ClassBean.Builder(classBean.getName(),classBean.getTextContent()).build();
-                    oldClassBeans.add(classBean1);
+                    it.unisa.casper.storage.beans.ClassBean.Builder classBeanBuilder = new it.unisa.casper.storage.beans.ClassBean.Builder(classBean.getName(),classBean.getTextContent());
+                    ArrayList<it.unisa.casper.storage.beans.MethodBean> oldMethodBean = new ArrayList<it.unisa.casper.storage.beans.MethodBean>();
                     for(MethodBean methodBean : classBean.getMethods()) {
                         it.unisa.casper.storage.beans.MethodBean methodBean1 = new it.unisa.casper.storage.beans.MethodBean.Builder(methodBean.getName(),methodBean.getTextContent()).build();
                         oldMethodBean.add(methodBean1);
                     }
+                    MethodBeanListAdapter methodBeanListAdapter = new MethodBeanListAdapter(oldMethodBean);
+                    classBeanBuilder.setMethods(methodBeanListAdapter);
+                    it.unisa.casper.storage.beans.ClassBean classBean1 = classBeanBuilder.build();
+                    classBean1.setBelongingPackage(new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent()).build());
+                    oldClassBeans.add(classBean1);
                 }
+                ClassBeanListAdapter classBeanListAdapter = new ClassBeanListAdapter(oldClassBeans);
+                packageBeanBuilder.setClassList(classBeanListAdapter);
+                it.unisa.casper.storage.beans.PackageBean packageBean1 = packageBeanBuilder.build();
+                projectPackages.add(packageBean1);
             }
 
             HashMap<String, Double> coseno = new HashMap<String, Double>();
@@ -100,11 +113,11 @@ public class PsiParser implements Parser {
 
                 packageAnalysis(coseno, dipendence, packageBean);
 
-                for (it.unisa.casper.storage.beans.ClassBean classBean : oldClassBeans) {
+                for (it.unisa.casper.storage.beans.ClassBean classBean : packageBean.getClassList()) {
 
                     classAnalysis(coseno, dipendence, classBean);
 
-                    for (it.unisa.casper.storage.beans.MethodBean methodBean : oldMethodBean) {
+                    for (it.unisa.casper.storage.beans.MethodBean methodBean : classBean.getMethodList()) {
 
                         methosAnalysis(coseno, dipendence, methodBean);
                     }

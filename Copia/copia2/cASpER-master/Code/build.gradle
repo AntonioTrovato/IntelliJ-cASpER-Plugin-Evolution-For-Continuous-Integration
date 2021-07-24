@@ -13,7 +13,9 @@ repositories {
 }
 
 dependencies {
-    
+
+    compile group: 'org.eclipse.platform', name: 'org.eclipse.equinox.common', version: '3.8.0'
+
     // https://mvnrepository.com/artifact/org.apache.lucene/lucene-core
     compile group: 'org.apache.lucene', name: 'lucene-core', version: '7.6.0'
     // https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc

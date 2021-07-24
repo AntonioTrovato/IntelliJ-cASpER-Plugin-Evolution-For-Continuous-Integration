@@ -39,6 +39,9 @@ public class PackageParser {
                 classes.add(ClassParser.parse(typeDeclaration, packageBean.getName(), imported));
             }
 
+            for (ClassBean classBean : classes)
+                packageBean.addClass(classBean);
+
             packageBean.setTextContent(textualContent);
 
         } catch (JavaModelException e) {
