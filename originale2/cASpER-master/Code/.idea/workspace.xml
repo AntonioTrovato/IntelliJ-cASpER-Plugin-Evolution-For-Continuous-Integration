@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="" />
+    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/libs/casper-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/libs/casper-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Studente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/helloworld/HelloWorld.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,11 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../.." userTempatePath="" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -53,7 +70,7 @@
         <entry key="$PROJECT_DIR$/.." value="DivergentChange" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1ZqTPfVvPn7H6t0Yv63wyhFv7R3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -234,6 +251,7 @@
       <workItem from="1626966098141" duration="396000" />
       <workItem from="1627032261637" duration="393000" />
       <workItem from="1627039617350" duration="4568000" />
+      <workItem from="1627221782757" duration="3245000" />
     </task>
     <servers />
   </component>
@@ -262,6 +280,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/casper$cASpER.ic" NAME="cASpER Coverage Results" MODIFIED="1574294040175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

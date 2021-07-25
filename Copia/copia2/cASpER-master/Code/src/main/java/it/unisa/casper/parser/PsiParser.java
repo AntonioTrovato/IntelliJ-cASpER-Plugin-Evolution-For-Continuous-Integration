@@ -18,6 +18,7 @@ import it.unisa.casper.analysis.code_smell_detection.promiscuous_package.Structu
 import it.unisa.casper.analysis.code_smell_detection.promiscuous_package.TextualPromiscuousPackageStrategy;
 import it.unisa.casper.core.FileUtility;
 import it.unisa.casper.beans.*;
+import it.unisa.casper.storage.beans.InstanceVariableList;
 import org.eclipse.jdt.core.dom.*;
 
 import java.io.BufferedReader;
@@ -53,11 +54,6 @@ public class PsiParser implements Parser {
                 newProjectPackages.add(parsedPackageBean);
             }
 
-            System.out.println("w");
-
-            //ArrayList<it.unisa.casper.storage.beans.ClassBean> oldClassBeans = new ArrayList<it.unisa.casper.storage.beans.ClassBean>();
-            //ArrayList<it.unisa.casper.storage.beans.MethodBean> oldMethodBean = new ArrayList<it.unisa.casper.storage.beans.MethodBean>();
-
             for(PackageBean packageBean : newProjectPackages) {
                 it.unisa.casper.storage.beans.PackageBean.Builder packageBeanBuilder = new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent());
                 ArrayList<it.unisa.casper.storage.beans.ClassBean> oldClassBeans = new ArrayList<it.unisa.casper.storage.beans.ClassBean>();
@@ -65,13 +61,97 @@ public class PsiParser implements Parser {
                     it.unisa.casper.storage.beans.ClassBean.Builder classBeanBuilder = new it.unisa.casper.storage.beans.ClassBean.Builder(classBean.getName(),classBean.getTextContent());
                     ArrayList<it.unisa.casper.storage.beans.MethodBean> oldMethodBean = new ArrayList<it.unisa.casper.storage.beans.MethodBean>();
                     for(MethodBean methodBean : classBean.getMethods()) {
-                        it.unisa.casper.storage.beans.MethodBean methodBean1 = new it.unisa.casper.storage.beans.MethodBean.Builder(methodBean.getName(),methodBean.getTextContent()).build();
+                        it.unisa.casper.storage.beans.MethodBean.Builder methodBeanBuilder = new it.unisa.casper.storage.beans.MethodBean.Builder(methodBean.getName(),methodBean.getTextContent());
+                        methodBeanBuilder.setBelongingClass(new it.unisa.casper.storage.beans.ClassBean.Builder(classBean.getName(),classBean.getTextContent()).build());
+
+                        ArrayList<it.unisa.casper.storage.beans.InstanceVariableBean> instanceVariableBeans = new ArrayList<it.unisa.casper.storage.beans.InstanceVariableBean>();
+                        for(InstanceVariableBean instanceVariableBean : methodBean.getUsedInstanceVariables()) {
+                            it.unisa.casper.storage.beans.InstanceVariableBean instanceVariableBean1 = new it.unisa.casper.storage.beans.InstanceVariableBean(instanceVariableBean.getName(),instanceVariableBean.getType(),instanceVariableBean.getInitialization(),instanceVariableBean.getVisibility());
+                            instanceVariableBeans.add(instanceVariableBean1);
+                        }
+                        InstanceVariableList instanceVariableList = new InstanceVariableList();
+                        instanceVariableList.setList(instanceVariableBeans);
+                        methodBeanBuilder.setInstanceVariableList(instanceVariableList);
+
+                        HashMap<String, it.unisa.casper.storage.beans.ClassBean> map = new HashMap<>();
+                        for(SingleVariableDeclaration singleVariableDeclaration : methodBean.getParameters()) {
+                            map.put(singleVariableDeclaration.getName().getIdentifier(),new it.unisa.casper.storage.beans.ClassBean.Builder(singleVariableDeclaration.getType().toString(),"").build());
+                        }
+                        methodBeanBuilder.setParameters(map);
+
+                        Type type = methodBean.getReturnType();
+                        methodBeanBuilder.setReturnType(new it.unisa.casper.storage.beans.ClassBean.Builder(type.toString(),"").build());
+
+                        methodBeanBuilder.setVisibility(String.valueOf(methodBean.getVisibility()));
+
+                        ArrayList<it.unisa.casper.storage.beans.MethodBean> methodBeanList = new ArrayList<>();
+                        for(MethodBean methodBeanz : methodBean.getMethodCalls()) {
+                            it.unisa.casper.storage.beans.MethodBean methodBean1x = new it.unisa.casper.storage.beans.MethodBean.Builder(methodBeanz.getName(),methodBeanz.getTextContent()).build();
+                            methodBeanList.add(methodBean1x);
+                        }
+                        MethodBeanListAdapter methodBeanListAdapter = new MethodBeanListAdapter(methodBeanList);
+                        methodBeanBuilder.setMethodsCalls(methodBeanListAdapter);
+
+                        it.unisa.casper.storage.beans.MethodBean methodBean1 = methodBeanBuilder.build();
+
                         oldMethodBean.add(methodBean1);
                     }
                     MethodBeanListAdapter methodBeanListAdapter = new MethodBeanListAdapter(oldMethodBean);
                     classBeanBuilder.setMethods(methodBeanListAdapter);
+                    classBeanBuilder.setBelongingPackage(new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent()).build());
+                    //ottengo il path assoluto
+                    String name = classBean.getBelongingPackage() + "/" + classBean.getName();
+                    String[] list = name.split("/");
+                    String root = list[0];
+                    File source = new File(path);
+                    boolean controllo = false;
+                    int j = 0, i = 0;
+                    File[] all = source.listFiles();
+                    File[] in;
+                    while (j < all.length && !controllo) {
+                        in = all[j].listFiles();
+                        if (in != null) {
+                            while (i < in.length && !controllo) {
+                                if (in[i].getName().equalsIgnoreCase(root)) {
+                                    controllo = true;
+                                    root = path + "/" + all[j].getName();
+                                }
+                                i++;
+                            }
+                        }
+                        i = 0;
+                        j++;
+                    }
+                    if (controllo) {
+                        for (j = 0; j < list.length - 1; j++) {
+                            root += "/" + list[j];
+                        }
+                    }
+                    classBeanBuilder.setPathToFile(root);
+                    if(classBean.getSuperclass() != null) {
+                        classBeanBuilder.setSuperclass(classBean.getSuperclass());
+                    }
+                    classBeanBuilder.setLOC(classBean.getLOC());
+                    ArrayList<it.unisa.casper.storage.beans.InstanceVariableBean> instanceVariableBeans = new ArrayList<it.unisa.casper.storage.beans.InstanceVariableBean>();
+                    for(InstanceVariableBean instanceVariableBean : classBean.getInstanceVariables()) {
+                        it.unisa.casper.storage.beans.InstanceVariableBean instanceVariableBean1 = new it.unisa.casper.storage.beans.InstanceVariableBean(instanceVariableBean.getName(),instanceVariableBean.getType(),instanceVariableBean.getInitialization(),instanceVariableBean.getVisibility());
+                        instanceVariableBeans.add(instanceVariableBean1);
+                    }
+                    InstanceVariableList instanceVariableList = new InstanceVariableList();
+                    instanceVariableList.setList(instanceVariableBeans);
+                    classBeanBuilder.setInstanceVariables(instanceVariableList);
+
+                    ArrayList<String> imports = new ArrayList<String>();
+                    for(String imported : classBean.getImports()) {
+                        imports.add(imported);
+                    }
+                    classBeanBuilder.setImports(imports);
+
+                    ArrayList<it.unisa.casper.storage.beans.InstanceVariableBean> instanceVariableBeansArrayList = new ArrayList<>();
+
+
                     it.unisa.casper.storage.beans.ClassBean classBean1 = classBeanBuilder.build();
-                    classBean1.setBelongingPackage(new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent()).build());
+
                     oldClassBeans.add(classBean1);
                 }
                 ClassBeanListAdapter classBeanListAdapter = new ClassBeanListAdapter(oldClassBeans);
