@@ -58,7 +58,7 @@ public class PsiParser implements Parser {
                 it.unisa.casper.storage.beans.PackageBean.Builder packageBeanBuilder = new it.unisa.casper.storage.beans.PackageBean.Builder(packageBean.getName(),packageBean.getTextContent());
                 ArrayList<it.unisa.casper.storage.beans.ClassBean> oldClassBeans = new ArrayList<it.unisa.casper.storage.beans.ClassBean>();
                 for(ClassBean classBean : packageBean.getClasses()) {
-                    it.unisa.casper.storage.beans.ClassBean.Builder classBeanBuilder = new it.unisa.casper.storage.beans.ClassBean.Builder(classBean.getName(),classBean.getTextContent());
+                    it.unisa.casper.storage.beans.ClassBean.Builder classBeanBuilder = new it.unisa.casper.storage.beans.ClassBean.Builder(packageBean.getName()+"."+classBean.getName(),classBean.getTextContent());
                     ArrayList<it.unisa.casper.storage.beans.MethodBean> oldMethodBean = new ArrayList<it.unisa.casper.storage.beans.MethodBean>();
                     for(MethodBean methodBean : classBean.getMethods()) {
                         it.unisa.casper.storage.beans.MethodBean.Builder methodBeanBuilder = new it.unisa.casper.storage.beans.MethodBean.Builder(methodBean.getName(),methodBean.getTextContent());

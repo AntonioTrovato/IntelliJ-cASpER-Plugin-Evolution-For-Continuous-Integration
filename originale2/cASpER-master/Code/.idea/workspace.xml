@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main-instrumented/it/unisa/casper/parser/PsiParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/classes/java/main/it/unisa/casper/parser/PsiParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/libs/casper-1.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/build/libs/casper-1.1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/src/main/java/it/unisa/casper/gui/PromiscuousPackagePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Copia/copia2/cASpER-master/Code/src/main/java/it/unisa/casper/parser/PsiParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HELLOWORLD/src/caspertrial/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HELLOWORLD/src/helloworld/HelloWorld.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

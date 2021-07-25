@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/helloworld/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +262,7 @@
       <workItem from="1627039617350" duration="4568000" />
       <workItem from="1627046916228" duration="3090000" />
       <workItem from="1627125397788" duration="16500000" />
-      <workItem from="1627221002223" duration="8400000" />
+      <workItem from="1627221002223" duration="9610000" />
     </task>
     <servers />
   </component>
@@ -312,19 +308,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/analysis/code_smell_detection/BeanDetection.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/parser/PsiParser.java</url>
-          <line>162</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/gui/PromiscuousPackagePage.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="34" />
+          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

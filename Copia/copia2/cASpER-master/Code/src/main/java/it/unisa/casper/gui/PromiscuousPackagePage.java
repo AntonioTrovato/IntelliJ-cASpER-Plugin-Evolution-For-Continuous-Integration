@@ -142,8 +142,6 @@ public class PromiscuousPackagePage extends DialogWrapper {
 
             @Override
             protected void doAction(ActionEvent actionEvent) {
-                System.out.println("Cioa");
-
                 //Messages.showMessageDialog("Promiscuous Package Refactoring coming soon", "Attention !", Messages.getInformationIcon());
                 message = "Something went wrong in computing solution";
                 ProgressManager.getInstance().runProcessWithProgressSynchronously(() -> {
