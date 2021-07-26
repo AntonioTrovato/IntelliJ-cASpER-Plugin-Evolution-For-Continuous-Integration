@@ -105,7 +105,7 @@ public class SystemStart {
 
         final List<PackageBean>[] packageList = new List[]{new ArrayList<>()};
 
-        PsiParser parser = new PsiParser(currentProject);
+        /*PsiParser parser = new PsiParser(currentProject);
         errorHappened = false;
 
         ProgressManager.getInstance().runProcessWithProgressSynchronously(() -> {
@@ -136,7 +136,7 @@ public class SystemStart {
         } else {
             System.out.println("Ci sono stati errori");
             Messages.showMessageDialog(currentProject, "Sorry, an error has occurred. Please try again or contact support", "OH ! No! ", Messages.getErrorIcon());
-        }
+        }*/
 
     }
 }

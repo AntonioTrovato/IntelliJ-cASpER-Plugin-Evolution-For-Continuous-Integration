@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/cli/DirectoryComputation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/Package1/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/Package2/Professore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/Package3/Studente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../cli/CommandLineCasper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +39,28 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="casper" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="casper" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="casper" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="casper" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="casper" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -89,7 +117,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -102,7 +131,25 @@
     <option name="AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="RunManager" selected="Gradle.casper2">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia2\cASpER-master\Code\src\main\java\it\unisa\casper\cli" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle :runIde" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.cli">
+    <configuration name="cli" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="it.unisa.casper.cli.CommandLineCasper" />
+      <module name="casper.main" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\anton\Documents\GitHub\Tirocinio\HELLOWORLD\src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,12 +161,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CasperRun" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Code [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="casper" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="-stacktrace" />
+        <option name="scriptParameters" value="-stacktrace --info" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -172,15 +259,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.cli" />
       <item itemvalue="Gradle.casper2" />
+      <item itemvalue="Gradle.CasperRun" />
       <item itemvalue="Gradle.casper" />
+      <item itemvalue="Gradle.Code [dependencies]" />
       <item itemvalue="JUnit.JUnitTestSuite" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JUnitTestSuite" />
-        <item itemvalue="JUnit.JUnitTestSuite" />
-        <item itemvalue="JUnit.JUnitTestSuite" />
+        <item itemvalue="Gradle.Code [dependencies]" />
         <item itemvalue="JUnit.JUnitTestSuite" />
         <item itemvalue="JUnit.JUnitTestSuite" />
       </list>
@@ -262,7 +350,9 @@
       <workItem from="1627039617350" duration="4568000" />
       <workItem from="1627046916228" duration="3090000" />
       <workItem from="1627125397788" duration="16500000" />
-      <workItem from="1627221002223" duration="9610000" />
+      <workItem from="1627221002223" duration="12868000" />
+      <workItem from="1627284342728" duration="5212000" />
+      <workItem from="1627290147396" duration="21297000" />
     </task>
     <servers />
   </component>
@@ -308,14 +398,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/refactor/splitting_algorithm/SplitPackages.java</url>
-          <line>210</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/parser/PsiParser.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

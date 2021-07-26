@@ -10,9 +10,11 @@ import java.util.Map;
 
 public class ICompilationUnitAdapter implements ICompilationUnit {
 
-    public ICompilationUnitAdapter(PsiClass psiClass,PsiJavaFile psiJavaFile) {
-        this.psiClass = psiClass;
-        this.psiJavaFile = psiJavaFile;
+    public ICompilationUnitAdapter(/*PsiClass psiClass,PsiJavaFile psiJavaFile*/
+                                    GeneralCompilationUnit generalCompilationUnit) {
+        /*this.psiClass = psiClass;
+        this.psiJavaFile = psiJavaFile;*/
+        this.generalCompilationUnit = generalCompilationUnit;
     }
 
     @Override
@@ -112,6 +114,14 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
 
     @Override
     public IImportDeclaration[] getImports() throws JavaModelException {
+        IImportDeclarationAdapter[] importDeclarationAdapters = new IImportDeclarationAdapter[generalCompilationUnit.getGeneralImportDeclarationsArrayList().size()];
+        int i = 0;
+        for(GeneralImportDeclaration generalImportDeclaration : generalCompilationUnit.getGeneralImportDeclarationsArrayList()) {
+            importDeclarationAdapters[i] = new IImportDeclarationAdapter(generalImportDeclaration);
+            i++;
+        }
+        return importDeclarationAdapters;
+        /*
         //IImportDeclaration -> rappresenta una import (import java.* è java.*)
         IImportDeclarationAdapter[] importDeclarationAdapters = new IImportDeclarationAdapter[psiJavaFile.getImportList().getAllImportStatements().length];
         //prendo la lista di tutte e import
@@ -123,7 +133,7 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
             importDeclarationAdapters[i] = new IImportDeclarationAdapter(psiImportStatement);
             i++;
         }
-        return importDeclarationAdapters;
+        return importDeclarationAdapters;*/
     }
 
     @Override
@@ -313,7 +323,7 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
 
     @Override
     public String getSource() throws JavaModelException {
-        return psiClass.getSourceElement().getText();
+        return generalCompilationUnit.getSource();
     }
 
     @Override
@@ -491,6 +501,7 @@ public class ICompilationUnitAdapter implements ICompilationUnit {
 
     }
 
-    private PsiClass psiClass;
-    private PsiJavaFile psiJavaFile;
+    /*private PsiClass psiClass;
+    private PsiJavaFile psiJavaFile;*/
+    private GeneralCompilationUnit generalCompilationUnit;
 }

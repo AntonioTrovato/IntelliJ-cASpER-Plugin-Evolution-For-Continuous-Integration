@@ -5,6 +5,7 @@ import com.intellij.openapi.project.Project;
 import com.intellij.psi.*;
 import com.intellij.psi.util.PsiTreeUtil;
 import it.unisa.casper.adapters.ClassBeanListAdapter;
+import it.unisa.casper.adapters.GeneralPackage;
 import it.unisa.casper.adapters.MethodBeanListAdapter;
 import it.unisa.casper.adapters.PackageAdapter;
 import it.unisa.casper.analysis.code_smell.*;
@@ -19,6 +20,7 @@ import it.unisa.casper.analysis.code_smell_detection.promiscuous_package.Textual
 import it.unisa.casper.core.FileUtility;
 import it.unisa.casper.beans.*;
 import it.unisa.casper.storage.beans.InstanceVariableList;
+import org.eclipse.jdt.core.IPackageFragment;
 import org.eclipse.jdt.core.dom.*;
 
 import java.io.BufferedReader;
@@ -30,17 +32,17 @@ import java.util.*;
 //import it.unisa.casper.storage.beans.*;
 
 public class PsiParser implements Parser {
-    private Project project;
     private final List<it.unisa.casper.storage.beans.PackageBean> projectPackages;
     private static String path;
     //Lista di threads
     private List<Thread> threadList;
+    private ArrayList<GeneralPackage> generalPackages;
 
-    public PsiParser(Project project) {
-        this.project = project;
-        path = project.getBasePath();
+    public PsiParser(String path,ArrayList<GeneralPackage> generalPackages) throws ParsingException {
+        this.path = path;
         projectPackages = new ArrayList<it.unisa.casper.storage.beans.PackageBean>();
         threadList = new ArrayList<>();
+        this.generalPackages = generalPackages;
     }
 
     @Override
@@ -48,9 +50,8 @@ public class PsiParser implements Parser {
         try {
             PackageBean parsedPackageBean;
             ArrayList<PackageBean> newProjectPackages = new ArrayList<PackageBean>();
-            Set<PsiPackage> listPackages = getAllPackagesBeans();
-            for (PsiPackage psiPackage : listPackages) {
-                parsedPackageBean = parse(psiPackage);
+            for (GeneralPackage generalPackage : generalPackages) {
+                parsedPackageBean = parse(generalPackage);
                 newProjectPackages.add(parsedPackageBean);
             }
 
@@ -304,13 +305,14 @@ public class PsiParser implements Parser {
      * The method obtains all the information from the
      * PsiPackage and uses them to create a PackageBean.
      *
-     * @param psiPackage
+     * @param generalPackage
      * @return
      */
-    private PackageBean parse(PsiPackage psiPackage) {
+    private PackageBean parse(GeneralPackage generalPackage) {
         //Package da parsare
-        PackageAdapter packageAdapter = new PackageAdapter(psiPackage);
+        PackageAdapter packageAdapter = new PackageAdapter(generalPackage);
         return PackageParser.parse(packageAdapter);
+        //return new PackageBean();
     }
 
     /**
@@ -319,7 +321,7 @@ public class PsiParser implements Parser {
      * @param psiClass
      * @return ClassBean
      */
-    public ClassBean parse(PsiClass psiClass, String contentForPackage) {
+    /*public ClassBean parse(PsiClass psiClass, String contentForPackage) {
         ClassParser classParser = new ClassParser();
         CodeParser codeParser = new CodeParser();
         //Classe da parsare
@@ -336,7 +338,7 @@ public class PsiParser implements Parser {
         builder.setBelongingPackage(packageBean);*/
 
         //ottengo il path assoluto
-        TypeDeclaration typeDeclaration = null;
+        /*TypeDeclaration typeDeclaration = null;
                 name = name.replace(".", "/");
         try {
             CompilationUnit parsed = codeParser.createParser(FileUtility.readFile(name));
@@ -353,9 +355,9 @@ public class PsiParser implements Parser {
         }
 
         return classParser.parse(typeDeclaration,pkgName,imports);
-        /*builder.setImports(imports);
-        return builder.build();*/
-    }
+        //builder.setImports(imports);
+        //return builder.build();
+    }*/
 
     /**
      * Creates a MethodBean from an intellij PsiMethod.
@@ -408,7 +410,7 @@ public class PsiParser implements Parser {
      *
      * @return Restituisce la lista dei Package
      */
-    private Set<PsiPackage> getAllPackagesBeans() {
+    /*private Set<PsiPackage> getAllPackagesBeans() {
 
         final Set<PsiPackage> foundPackages = new HashSet<>();
 
@@ -426,5 +428,5 @@ public class PsiParser implements Parser {
             }
         });
         return foundPackages;
-    }
+    }*/
 }

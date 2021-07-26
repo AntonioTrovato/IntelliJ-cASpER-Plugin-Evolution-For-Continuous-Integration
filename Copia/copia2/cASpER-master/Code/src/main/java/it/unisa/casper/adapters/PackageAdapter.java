@@ -9,10 +9,12 @@ import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.jdt.core.*;
 
 public class PackageAdapter implements IPackageFragment {
-    private PsiPackage psiPackage;
+    //private PsiPackage psiPackage;
+    private GeneralPackage generalPackage;
 
-    public PackageAdapter(PsiPackage psiPackage) {
-        this.psiPackage = psiPackage;
+    public PackageAdapter(/*PsiPackage psiPackage*/GeneralPackage generalPackage) {
+        //this.psiPackage = psiPackage;
+        this.generalPackage = generalPackage;
     }
 
     @Override
@@ -62,6 +64,14 @@ public class PackageAdapter implements IPackageFragment {
 
     @Override
     public ICompilationUnit[] getCompilationUnits() throws JavaModelException {
+        ICompilationUnitAdapter[] iCompilationUnitAdapters = new ICompilationUnitAdapter[generalPackage.getGeneralCompilationUnits().size()];
+        int i = 0;
+        for(GeneralCompilationUnit generalCompilationUnit : generalPackage.getGeneralCompilationUnits()) {
+            iCompilationUnitAdapters[i] = new ICompilationUnitAdapter(generalCompilationUnit);
+            i++;
+        }
+        return iCompilationUnitAdapters;
+        /*
         //ICompilationUnit -> source code di un .java
         //creo un array di ICompilationUnitAdapter
         ICompilationUnitAdapter[] iCompilationUnitAdapters = new ICompilationUnitAdapter[psiPackage.getClasses().length];
@@ -75,7 +85,7 @@ public class PackageAdapter implements IPackageFragment {
             iCompilationUnitAdapters[i] = new ICompilationUnitAdapter(psiClass,(PsiJavaFile) psiFile);
             i++;
         }
-        return iCompilationUnitAdapters;
+        return iCompilationUnitAdapters;*/
     }
 
     @Override
@@ -105,7 +115,7 @@ public class PackageAdapter implements IPackageFragment {
 
     @Override
     public String getElementName() {
-        return psiPackage.getQualifiedName();
+        return generalPackage.getElementName();
     }
 
     @Override

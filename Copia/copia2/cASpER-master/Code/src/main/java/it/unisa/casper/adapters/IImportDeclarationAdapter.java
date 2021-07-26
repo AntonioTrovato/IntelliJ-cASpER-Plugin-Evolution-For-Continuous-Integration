@@ -9,8 +9,10 @@ import org.eclipse.jdt.core.*;
 
 public class IImportDeclarationAdapter implements IImportDeclaration {
 
-    public IImportDeclarationAdapter(PsiImportStatement psiImportStatement) {
-        this.psiImportStatement = psiImportStatement;
+    public IImportDeclarationAdapter(/*PsiImportStatement psiImportStatement*/
+                                        GeneralImportDeclaration generalImportDeclaration) {
+        //this.psiImportStatement = psiImportStatement;
+        this.generalImportDeclaration = generalImportDeclaration;
     }
 
     @Override
@@ -50,7 +52,7 @@ public class IImportDeclarationAdapter implements IImportDeclaration {
 
     @Override
     public String getElementName() {
-        return psiImportStatement.getQualifiedName();
+        return generalImportDeclaration.getElementName();
     }
 
     @Override
@@ -153,5 +155,6 @@ public class IImportDeclarationAdapter implements IImportDeclaration {
 
     }
 
-    private PsiImportStatement psiImportStatement;
+    //private PsiImportStatement psiImportStatement;
+    private GeneralImportDeclaration generalImportDeclaration;
 }
