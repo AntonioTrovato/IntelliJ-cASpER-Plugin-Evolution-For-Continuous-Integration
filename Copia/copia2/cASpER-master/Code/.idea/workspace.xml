@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../copia_cASpER-DESKTOP-MOFSF87/Code/src/main/java/it/unisa/casper/cli/DirectoryComputation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/Package1/Persona.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/Package2/Professore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/Package3/Studente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../cli/CommandLineCasper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../originale2/cASpER-master/Code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../org.eclipse.osgi_3.16.300.v20210525-1715.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +106,13 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../HELLOWORLD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Tirocinio/cASpER-master/Code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -145,18 +139,20 @@
     <configuration name="cli" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unisa.casper.cli.CommandLineCasper" />
       <module name="casper.main" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\anton\Documents\GitHub\Tirocinio\HELLOWORLD\src" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\anton\Documents\GitHub\Tirocinio\HELLOWORLD" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,6 +349,7 @@
       <workItem from="1627221002223" duration="12868000" />
       <workItem from="1627284342728" duration="5212000" />
       <workItem from="1627290147396" duration="21297000" />
+      <workItem from="1627390886150" duration="15902000" />
     </task>
     <servers />
   </component>
@@ -398,16 +395,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/parser/PsiParser.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="52" />
+          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/CommandLineCasper.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="it.unisa.casper.adapters.GeneralPackage" memberName="elementName" />
         <PinnedItemInfo parentTag="com.intellij.psi.impl.source.PsiImportStatementImpl" memberName="mySubstrateRef" />
-        <PinnedItemInfo parentTag="it.unisa.casper.adapters.ClassBeanListAdapter" memberName="classBeanArrayList" />
+        <PinnedItemInfo parentTag="it.unisa.casper.beans.PackageBean" memberName="classes" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
