@@ -64,8 +64,9 @@ public class CommandLineCasper{
                     }
                 }
             }
-            System.out.println(line);
         }
+
+        System.out.println(line);
 
         int index = Integer.valueOf(bufferedReader.readLine()) - 1;
         if (index < 0) {

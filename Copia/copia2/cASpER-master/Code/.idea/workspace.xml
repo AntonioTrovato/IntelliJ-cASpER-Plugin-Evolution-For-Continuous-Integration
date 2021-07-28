@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/src/helloworld/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/lib/org.eclipse.core.runtime-3.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/HELLOWORLD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/HELLOWORLD.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,7 @@
       <command value="gradle :runIde" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.cli">
+  <component name="RunManager" selected="Gradle.Code [build]">
     <configuration name="cli" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="it.unisa.casper.cli.CommandLineCasper" />
       <module name="casper.main" />
@@ -176,6 +177,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Code [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Code [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,6 +210,27 @@
         <option name="taskNames">
           <list>
             <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Code [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -261,9 +304,13 @@
       <item itemvalue="Gradle.casper" />
       <item itemvalue="Gradle.Code [dependencies]" />
       <item itemvalue="JUnit.JUnitTestSuite" />
+      <item itemvalue="Gradle.Code [jar]" />
+      <item itemvalue="Gradle.Code [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Code [build]" />
+        <item itemvalue="Gradle.Code [jar]" />
         <item itemvalue="Gradle.Code [dependencies]" />
         <item itemvalue="JUnit.JUnitTestSuite" />
         <item itemvalue="JUnit.JUnitTestSuite" />
@@ -351,7 +398,7 @@
       <workItem from="1627290147396" duration="21297000" />
       <workItem from="1627390886150" duration="15902000" />
       <workItem from="1627436164445" duration="1116000" />
-      <workItem from="1627466505264" duration="19663000" />
+      <workItem from="1627466505264" duration="22665000" />
     </task>
     <servers />
   </component>
@@ -400,6 +447,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/PromiscuousPackageRefactoringStrategyCli.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/CommandLineCasper.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

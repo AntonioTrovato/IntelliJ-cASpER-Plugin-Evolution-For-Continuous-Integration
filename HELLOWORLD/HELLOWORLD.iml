@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.eclipse.core.runtime-3.14.0" level="application" />
+    <orderEntry type="library" name="Code" level="application" />
+    <orderEntry type="library" name="casper-1.1.2" level="application" />
   </component>
 </module>

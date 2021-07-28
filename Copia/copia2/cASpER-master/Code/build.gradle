@@ -33,3 +33,13 @@ intellij {
     version '2019.3'
     plugins = ['java']
 }
+
+jar {
+    manifest {
+        attributes "Main-Class": "it.unisa.casper.cli.CommandLineCasper"
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
