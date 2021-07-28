@@ -9,4 +9,6 @@ script:
   - java -jar Copia/copia2/cASpER-master/Code/build/libs/casper-1.1.2.jar HELLOWORLD
 
 after_success:
-  - .travis/push.sh
+  - git add .
+  - git commit -m "cASpER"
+  - git push origin branch-name
