@@ -25,7 +25,7 @@ public class CommandLineCasper{
         bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //Avvio la raccolta dei package da analizzare con il parser
         Set<String> files = new HashSet<>();
-        ArrayList<GeneralPackage> generalPackages = listOfPackage(args[0]+"\\src",files,null);
+        ArrayList<GeneralPackage> generalPackages = listOfPackage(args[0]+"/src",files,null);
 
         //Effettuo l'analisi dei package rilevati
         final List<PackageBean>[] packageList = new List[]{new ArrayList<>()};
