@@ -314,8 +314,8 @@ public class CommandLineCasper{
                     generalPackage.addGeneralCompilationUnit(generalCompilationUnit);
                 }
                 String path=file.getPath();
-                String packName=path.substring(path.indexOf("src")+4, path.lastIndexOf('\\'));
-                pack.add(packName.replace('\\', '.'));
+                String packName=path.substring(path.indexOf("src")+4, path.lastIndexOf('/'));
+                pack.add(packName.replace('/', '.'));
             } else if (file.isDirectory()) {
                 GeneralPackage generalPackage1 = new GeneralPackage(file.getName());
                 generalPackages.add(generalPackage1);
