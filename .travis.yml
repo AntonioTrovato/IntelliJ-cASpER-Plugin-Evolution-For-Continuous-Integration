@@ -6,4 +6,4 @@ jdk:
 
 script:
 
-  - java -jar Copia\copia2\cASpER-master\Code\build\libs\casper-1.1.2.jar HELLOWORLD
+  - java -jar Copia/copia2/cASpER-master/Code/build/libs/casper-1.1.2.jar HELLOWORLD
