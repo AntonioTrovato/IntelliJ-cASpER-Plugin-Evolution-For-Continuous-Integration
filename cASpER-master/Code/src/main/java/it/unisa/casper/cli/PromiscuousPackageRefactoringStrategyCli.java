@@ -36,13 +36,13 @@ public class PromiscuousPackageRefactoringStrategyCli implements RefactoringStra
     @Override
     public void doRefactor() throws RefactorException {
         List<ClassBean> classBeanList;
-        String pathPackage = packageBeanSource.getClassList().get(0).getPathToFile();
+        String pathPackage = packageBeanSource.getClassList().get(0).getPathToFile().replace("\\","/");
         String incopletePath = pathPackage.substring(0, pathPackage.lastIndexOf('/'));
         String path, fqn;
         int inizio = 1, i;
 
         //fqn = caspertrial.
-        fqn = packageBeanSource.getFullQualifiedName();
+        fqn = packageBeanSource.getFullQualifiedName().replace("\\","/");
         fqn = fqn.substring(0, fqn.lastIndexOf(".") + 1);
         if (fqn.equalsIgnoreCase("")) {
             fqn += ".";
@@ -55,16 +55,16 @@ public class PromiscuousPackageRefactoringStrategyCli implements RefactoringStra
 
         for (PackageBean toPackage : newPackages) {
             path = fqn + "Package" + i++;
-            toPackage.setFullQualifiedName(path);
+            toPackage.setFullQualifiedName(path.replace("\\","/"));
             classBeanList = toPackage.getClassList();
 
-            path = incopletePath + "/" + toPackage.getFullQualifiedName().substring(toPackage.getFullQualifiedName().lastIndexOf(".") + 1);
-            new File(path).mkdir();
+            path = incopletePath + "/" + toPackage.getFullQualifiedName().replace("\\","/").substring(toPackage.getFullQualifiedName().lastIndexOf(".") + 1);
+            new File(path.replace("\\","/")).mkdir();
 
             for (ClassBean classBean : classBeanList) {
                 try {
-                    String nome = classBean.getFullQualifiedName().substring(classBean.getFullQualifiedName().lastIndexOf(".")+1)+".java";
-                    Files.move(Paths.get(classBean.getPathToFile()+"/"+nome), Paths.get(path+"/"+nome));
+                    String nome = classBean.getFullQualifiedName().replace("\\","/").substring(classBean.getFullQualifiedName().replace("\\","/").lastIndexOf(".")+1)+".java";
+                    Files.move(Paths.get(classBean.getPathToFile().replace("\\","/").replace("\\","/")+"/"+nome), Paths.get(path+"/"+nome));
                 }catch (IOException e) {
                     e.printStackTrace();
                 }

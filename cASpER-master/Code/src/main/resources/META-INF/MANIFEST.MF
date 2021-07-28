@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: it.unisa.casper.cli.CommandLineCasper
-Class-Path: C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia2\cASpE
- R-master\Code\out\production\classes\;C:\Users\anton\Documents\GitHub\T
- irocinio\Copia\copia2\cASpER-master\Code\lib\*
-

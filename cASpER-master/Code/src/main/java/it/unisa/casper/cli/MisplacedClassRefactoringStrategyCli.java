@@ -18,8 +18,8 @@ public class MisplacedClassRefactoringStrategyCli implements RefactoringStrategy
 
     public void doRefactor() throws RefactorException{
         try {
-            String nome = classBean.getFullQualifiedName().substring(classBean.getFullQualifiedName().lastIndexOf(".")+1)+".java";
-            Files.move(Paths.get(classBean.getPathToFile()+"/"+nome), Paths.get(targetBean.getFullQualifiedName()+"/"+nome));
+            String nome = classBean.getFullQualifiedName().replace("\\","/").substring(classBean.getFullQualifiedName().replace("\\","/").lastIndexOf(".")+1)+".java";
+            Files.move(Paths.get(classBean.getPathToFile().replace("\\","/")+"/"+nome), Paths.get(targetBean.getFullQualifiedName().replace("\\","/")+"/"+nome));
         }catch (IOException e) {
             e.printStackTrace();
         }

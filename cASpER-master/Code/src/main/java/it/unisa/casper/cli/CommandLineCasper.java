@@ -11,6 +11,7 @@ import it.unisa.casper.refactor.splitting_algorithm.SplitPackages;
 import it.unisa.casper.storage.beans.ClassBean;
 import it.unisa.casper.storage.beans.MethodBean;
 import it.unisa.casper.storage.beans.PackageBean;
+import org.apache.xmlbeans.impl.xb.ltgfmt.Code;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -19,13 +20,12 @@ import java.util.*;
 
 public class CommandLineCasper{
     public static void main(String[] args) throws Exception {
+        Files.createFile(Paths.get("C:\\Users\\anton\\Documents\\GitHub\\Tirocinio\\ciao.txt"));
         System.out.println("Imposto i dati necessari");
         setSystem();
-        //inizializzo un lettore per l'input
-        bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //Avvio la raccolta dei package da analizzare con il parser
         Set<String> files = new HashSet<>();
-        ArrayList<GeneralPackage> generalPackages = listOfPackage(args[0]+"\\src",files,null);
+        ArrayList<GeneralPackage> generalPackages = listOfPackage(args[0]+"/src",files,null);
 
         //Effettuo l'analisi dei package rilevati
         final List<PackageBean>[] packageList = new List[]{new ArrayList<>()};
@@ -36,7 +36,7 @@ public class CommandLineCasper{
         }
 
         int i = 1;
-        System.out.println("Ecco i code smell rilevati, scegline uno o digita un qualsiasi altro numero \nper non effettuare il refactoring: ");
+        System.out.println("Ecco i code smell rilevati:");
         String line = "";
         HashMap<PackageBean,CodeSmell> packageCodeSmell = new HashMap<>();
         HashMap<ClassBean,CodeSmell> classCodeSmell = new HashMap<>();
@@ -64,9 +64,49 @@ public class CommandLineCasper{
                     }
                 }
             }
-            System.out.println(line);
         }
 
+        System.out.println(line);
+
+        Iterator<CodeSmell> codeSmellIterator = packageCodeSmell.values().iterator();
+        Iterator<PackageBean> packageBeanIterator = packageCodeSmell.keySet().iterator();
+        Iterator<ClassBean> classBeanIterator = classCodeSmell.keySet().iterator();
+        Iterator<MethodBean> methodBeanIterator = methodCodeSmell.keySet().iterator();
+
+        for (int index = 0; index < packageCodeSmell.size(); index++) {
+            CodeSmell codeSmell = codeSmellIterator.next();
+            PackageBean packageBean = packageBeanIterator.next();
+            try {
+                packageLevelRefactoring(packageBean, codeSmell, args[0]);
+            }catch (Exception e) {
+                System.out.println("Impossibile effettuare il refactoring");
+            }
+        }
+
+        codeSmellIterator = classCodeSmell.values().iterator();
+        for (int index = 0; index < classCodeSmell.size(); index++) {
+            CodeSmell codeSmell = codeSmellIterator.next();
+            ClassBean classBean = classBeanIterator.next();
+            try {
+                classLevelRefactoring(classBean, codeSmell, args[0]);
+            }catch (Exception e) {
+                System.out.println("Impossibile effettuare il refactoring");
+            }
+        }
+
+        codeSmellIterator = methodCodeSmell.values().iterator();
+        for (int index = 0; index < classCodeSmell.size(); index++) {
+            CodeSmell codeSmell = codeSmellIterator.next();
+            MethodBean methodBean = methodBeanIterator.next();
+            try {
+                methodLevelRefactoring(methodBean, codeSmell, args[0]);
+            }catch (Exception e) {
+                System.out.println("Impossibile effettuare il refactoring");
+            }
+        }
+
+        System.out.println("FINE");
+        /*
         int index = Integer.valueOf(bufferedReader.readLine()) - 1;
         if (index < 0) {
             System.out.println("Hai scelto di  annullare");
@@ -145,7 +185,7 @@ public class CommandLineCasper{
         }else {
             System.out.println("Hai scelto di annullare");
             return;
-        }
+        }*/
     }
 
     public static void packageLevelRefactoring(PackageBean packageBean, CodeSmell codeSmell, String project) throws Exception{
@@ -158,15 +198,6 @@ public class CommandLineCasper{
             System.out.println(packageBean1.getFullQualifiedName());
         }
 
-        String risposta = "";
-        while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-            System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-            risposta = bufferedReader.readLine();
-            if(risposta.equals("n")) {
-                return;
-            }
-        }
-
         PromiscuousPackageRefactoringStrategyCli refactoringStrategy = new PromiscuousPackageRefactoringStrategyCli(packageBean,obtainedPackageBeans,project);
         refactoringStrategy.doRefactor();
 
@@ -175,15 +206,6 @@ public class CommandLineCasper{
     public static void classLevelRefactoring(ClassBean classBean, CodeSmell codeSmell, String project) throws Exception{
         if(codeSmell instanceof MisplacedClassCodeSmell) {
             System.out.println("Envied package: " + classBean.getEnviedPackage().getFullQualifiedName());
-
-            String risposta = "";
-            while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-                System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-                risposta = bufferedReader.readLine();
-                if(risposta.equals("n")) {
-                    return;
-                }
-            }
 
             MisplacedClassRefactoringStrategyCli refactoringStrategy = new MisplacedClassRefactoringStrategyCli(classBean,classBean.getEnviedPackage(),project);
             refactoringStrategy.doRefactor();
@@ -195,15 +217,6 @@ public class CommandLineCasper{
             for(ClassBean classBean1 : new SplitClasses().split(classBean,0)) {
                 obtainedClassBeans.add(classBean1);
                 System.out.println(classBean1.getFullQualifiedName());
-            }
-
-            String risposta = "";
-            while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-                System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-                risposta = bufferedReader.readLine();
-                if(risposta.equals("n")) {
-                    return;
-                }
             }
 
             BlobRefactoringStrategyCli refactoringStrategy = new BlobRefactoringStrategyCli(classBean,obtainedClassBeans,project);
@@ -218,15 +231,6 @@ public class CommandLineCasper{
                 System.out.println(classBean1.getFullQualifiedName());
             }
 
-            String risposta = "";
-            while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-                System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-                risposta = bufferedReader.readLine();
-                if(risposta.equals("n")) {
-                    return;
-                }
-            }
-
             DivergentChangeRefactoringStrategyCli refactoringStrategy = new DivergentChangeRefactoringStrategyCli(classBean,obtainedClassBeans,project);
             refactoringStrategy.doRefactor();
 
@@ -236,30 +240,10 @@ public class CommandLineCasper{
             System.out.println("Parallel inheritance class: " + classBean.getParallelInheritanceClass().getFullQualifiedName());
             ClassBean parallelHineritanceClass = classBean.getParallelInheritanceClass();
             //il quarto parametro è proprtio this.packageBeans
-
-
-            String risposta = "";
-            while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-                System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-                risposta = bufferedReader.readLine();
-                if(risposta.equals("n")) {
-                    return;
-                }
-            }
-
             ParallelInheritanceRefactoringStrategyCli refactoringStrategy = new ParallelInheritanceRefactoringStrategyCli(superClass,parallelHineritanceClass,project,packageBeans);
             refactoringStrategy.doRefactor();
 
         }else if(codeSmell instanceof ShotgunSurgeryCodeSmell) {
-            String risposta = "";
-            while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-                System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-                risposta = bufferedReader.readLine();
-                if(risposta.equals("n")) {
-                    return;
-                }
-            }
-
             ShotgunSurgeryRefactoringStrategyCli refactoringStrategy = new ShotgunSurgeryRefactoringStrategyCli(classBean,project);
             refactoringStrategy.doRefactor();
 
@@ -267,15 +251,6 @@ public class CommandLineCasper{
     }
 
     private static void methodLevelRefactoring(MethodBean methodBean, CodeSmell codeSmell, String project) throws Exception{
-        String risposta = "";
-        while (!(risposta.equals("s")) && !(risposta.equals("n"))) {
-            System.out.println("\nVuoi effettuare il refactoring (s/n)? ");
-            risposta = bufferedReader.readLine();
-            if(risposta.equals("n")) {
-                return;
-            }
-        }
-
         FeatureEnvyRefactoringStrategyCli refactoringStrategy = new FeatureEnvyRefactoringStrategyCli(methodBean,project);
         refactoringStrategy.doRefactor();
     }
@@ -313,8 +288,8 @@ public class CommandLineCasper{
                     generalPackage.addGeneralCompilationUnit(generalCompilationUnit);
                 }
                 String path=file.getPath();
-                String packName=path.substring(path.indexOf("src")+4, path.lastIndexOf('\\'));
-                pack.add(packName.replace('\\', '.'));
+                String packName=path.substring(path.indexOf("src")+4, path.lastIndexOf('/'));
+                pack.add(packName.replace('/', '.'));
             } else if (file.isDirectory()) {
                 GeneralPackage generalPackage1 = new GeneralPackage(file.getName());
                 generalPackages.add(generalPackage1);
@@ -398,7 +373,6 @@ public class CommandLineCasper{
         }
     }
 
-    private static BufferedReader bufferedReader;
     private static ArrayList<PackageBean> packageBeans = new ArrayList<>();
     private static String algoritmo, nameDir;
     private static ArrayList<String> smell;
