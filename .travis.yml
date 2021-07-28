@@ -6,4 +6,4 @@ jdk:
 
 script:
 
-  - java -classpath Copia/copia2/cASpER-master/Code/out/production/classes/ it.unisa.casper.cli.CommandLineCasper HELLOWORLD
+  - java -classpath cASpER-master/Code/out/production/classes/ it.unisa.casper.cli.CommandLineCasper HELLOWORLD
