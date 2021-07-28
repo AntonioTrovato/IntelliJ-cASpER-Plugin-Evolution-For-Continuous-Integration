@@ -12,7 +12,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token:
-    secure: $GITHUB_TOKEN
+    secure: \$GITHUB_TOKEN
   keep_history: true
   on:
     branch: main
