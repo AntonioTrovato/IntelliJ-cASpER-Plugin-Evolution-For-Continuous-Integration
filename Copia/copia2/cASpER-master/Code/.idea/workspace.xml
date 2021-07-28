@@ -395,7 +395,7 @@
       <workItem from="1627290147396" duration="21297000" />
       <workItem from="1627390886150" duration="15902000" />
       <workItem from="1627436164445" duration="1116000" />
-      <workItem from="1627466505264" duration="23792000" />
+      <workItem from="1627466505264" duration="24699000" />
     </task>
     <servers />
   </component>
@@ -444,11 +444,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/PromiscuousPackageRefactoringStrategyCli.java</url>
           <line>26</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/CommandLineCasper.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
