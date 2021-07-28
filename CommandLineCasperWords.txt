@@ -1,9 +1,11 @@
-java -classpath C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DESKTOP-MOFSF87\Code\out\production\classes\;C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DESKTOP-MOFSF87\Code\build\idea-sandbox\plugins\casper\lib\commons-cli-1.4.jar it.unisa.casper.cli.CommandLineCasper -op 5
+java -classpath C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia2\cASpER-master\Code\out\production\classes\;C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia2\cASpER-master\Code\lib\* it.unisa.casper.cli.CommandLineCasper C:\Users\anton\Documents\GitHub\Tirocinio\HELLOWORLD
 
 il classpath contiene due path:
 1)il path del .class di COmmandLineCasper
-2)il path del .jar di commons-cli-1.4.jar
+2)il path dei .jar
 
 java -classpath C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DESKTOP-MOFSF87\Code\out\production\classes it.unisa.casper.prova.HelloWorld
 
 Questo è ciò che deve lanciare Travis
+vecchio script su travis
+- java -classpath HELLOWORLD/out/production/HELLOWORLD/ helloworld.HelloWorld

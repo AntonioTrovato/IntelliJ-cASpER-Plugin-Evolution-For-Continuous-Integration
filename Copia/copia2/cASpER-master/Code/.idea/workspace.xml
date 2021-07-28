@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../org.eclipse.osgi_3.16.300.v20210525-1715.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../CommandLineCasperWords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../CommandLineCasperWords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/src/caspertrial/Studente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +108,13 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Tirocinio/cASpER-master/Code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -350,6 +352,8 @@
       <workItem from="1627284342728" duration="5212000" />
       <workItem from="1627290147396" duration="21297000" />
       <workItem from="1627390886150" duration="15902000" />
+      <workItem from="1627436164445" duration="1116000" />
+      <workItem from="1627466505264" duration="19141000" />
     </task>
     <servers />
   </component>
@@ -395,9 +399,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/CommandLineCasper.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="73" />
+          <url>file://$PROJECT_DIR$/src/main/java/it/unisa/casper/cli/PromiscuousPackageRefactoringStrategyCli.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,7 +2,7 @@ package caspertrial;
 
 import java.lang.System;
 
-public class Studente extends Persona{
+public class Studente extends caspertrial.Persona {
     public String getNome() {
         return nome;
     }

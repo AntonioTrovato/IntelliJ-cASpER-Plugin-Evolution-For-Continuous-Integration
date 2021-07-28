@@ -2,8 +2,8 @@ language: java
 
 jdk:
 
-  - oraclejdk14
+  - oraclejdk1.8
 
 script:
 
-  - java -classpath HELLOWORLD/out/production/HELLOWORLD/ helloworld.HelloWorld
+  - java java -classpath Copia\copia2\cASpER-master\Code\out\production\classes\;Copia\copia2\cASpER-master\Code\lib\* it.unisa.casper.cli.CommandLineCasper HELLOWORLD
