@@ -20,6 +20,7 @@ import java.util.*;
 
 public class CommandLineCasper{
     public static void main(String[] args) throws Exception {
+        Files.createFile(Paths.get("ciao.txt"));
         System.out.println("Imposto i dati necessari");
         setSystem();
         //Avvio la raccolta dei package da analizzare con il parser
