@@ -21,14 +21,14 @@ public class BlobRefactoringStrategyCli implements RefactoringStrategy {
     @Override
     public void doRefactor() throws RefactorException {
         for (ClassBean classBean : splittedList) {
-            File classFile = new File(classBean.getFullQualifiedName());
+            File classFile = new File(classBean.getFullQualifiedName().replace("\\","/"));
             try {
                 FileWriter fileWriter = new FileWriter(classFile);
                 fileWriter.write(classBean.getTextContent());
             }catch (IOException e) {
                 e.printStackTrace();
             }
-            (new File(originalClass.getFullQualifiedName())).delete();
+            (new File(originalClass.getFullQualifiedName().replace("\\","/"))).delete();
         }
     }
 

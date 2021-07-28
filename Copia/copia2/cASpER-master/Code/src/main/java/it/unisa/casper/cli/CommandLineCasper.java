@@ -35,7 +35,7 @@ public class CommandLineCasper{
         }
 
         int i = 1;
-        System.out.println("Ecco i code smell rilevati, scegline uno o digita un qualsiasi altro numero \nper non effettuare il refactoring: ");
+        System.out.println("Ecco i code smell rilevati:");
         String line = "";
         HashMap<PackageBean,CodeSmell> packageCodeSmell = new HashMap<>();
         HashMap<ClassBean,CodeSmell> classCodeSmell = new HashMap<>();
@@ -75,22 +75,36 @@ public class CommandLineCasper{
         for (int index = 0; index < packageCodeSmell.size(); index++) {
             CodeSmell codeSmell = codeSmellIterator.next();
             PackageBean packageBean = packageBeanIterator.next();
-            packageLevelRefactoring(packageBean,codeSmell,args[0]);
+            try {
+                packageLevelRefactoring(packageBean, codeSmell, args[0]);
+            }catch (Exception e) {
+                System.out.println("Impossibile effettuare il refactoring");
+            }
         }
 
         codeSmellIterator = classCodeSmell.values().iterator();
         for (int index = 0; index < classCodeSmell.size(); index++) {
             CodeSmell codeSmell = codeSmellIterator.next();
             ClassBean classBean = classBeanIterator.next();
-            classLevelRefactoring(classBean,codeSmell,args[0]);
+            try {
+                classLevelRefactoring(classBean, codeSmell, args[0]);
+            }catch (Exception e) {
+                System.out.println("Impossibile effettuare il refactoring");
+            }
         }
 
         codeSmellIterator = methodCodeSmell.values().iterator();
         for (int index = 0; index < classCodeSmell.size(); index++) {
             CodeSmell codeSmell = codeSmellIterator.next();
             MethodBean methodBean = methodBeanIterator.next();
-            methodLevelRefactoring(methodBean,codeSmell,args[0]);
+            try {
+                methodLevelRefactoring(methodBean, codeSmell, args[0]);
+            }catch (Exception e) {
+                System.out.println("Impossibile effettuare il refactoring");
+            }
         }
+
+        System.out.println("FINE");
         /*
         int index = Integer.valueOf(bufferedReader.readLine()) - 1;
         if (index < 0) {
