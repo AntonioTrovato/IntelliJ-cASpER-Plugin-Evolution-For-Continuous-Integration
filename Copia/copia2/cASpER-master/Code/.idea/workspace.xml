@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/lib/org.eclipse.core.runtime-3.14.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../HELLOWORLD/HELLOWORLD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../HELLOWORLD/HELLOWORLD.iml" afterDir="false" />
-    </list>
+    <list default="true" id="47afe1f5-89a3-48a7-a848-fb15bcd093ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,7 +395,7 @@
       <workItem from="1627290147396" duration="21297000" />
       <workItem from="1627390886150" duration="15902000" />
       <workItem from="1627436164445" duration="1116000" />
-      <workItem from="1627466505264" duration="22665000" />
+      <workItem from="1627466505264" duration="23283000" />
     </task>
     <servers />
   </component>
