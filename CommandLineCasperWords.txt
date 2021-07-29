@@ -9,4 +9,12 @@ java -classpath C:\Users\anton\Documents\GitHub\Tirocinio\Copia\copia_cASpER-DES
 Questo è ciò che deve lanciare Travis
 vecchio script su travis
 - java -classpath HELLOWORLD/out/production/HELLOWORLD/ helloworld.HelloWorld
-modifica
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token:
+    secure: \$GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: main
