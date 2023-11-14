@@ -1,2 +1,2 @@
-# TIROCINIOTRIENNALE
-La repository mantiene tutti i file relativi al mio progetto di tirocinio per la tesi della triennale.
+# cASpER Plugin For Continuous Integration
+The objective of this project was to integrate, through adaptive maintenance, the IntelliJ queue detection plugin smell cASpER into a Continuous Integration environment.
